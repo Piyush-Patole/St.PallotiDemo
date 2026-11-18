@@ -108,46 +108,89 @@
   </div>
 
   <!-- =========================================================================
-       2. MAIN HEADER & INSTITUTIONAL CREST (ATTRACTIVE & PROPORTIONATE)
+       2. MAIN HEADER & INSTITUTIONAL CREST (TWO-TIER PANORAMIC ARCHITECTURE)
        ========================================================================= -->
-  <header id="mainHeader" class="header-sticky sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all duration-300">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="flex items-center justify-between h-24">
+  <header id="mainHeader" class="header-sticky sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all duration-300 shadow-sm">
+    
+    <!-- TIER 1: BRANDING & PRIMARY ACTIONS -->
+    <div class="border-b border-slate-100">
+      <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-12 flex items-center justify-between h-20 sm:h-22">
         
         <!-- Institutional Identity -->
-        <a href="#" class="flex items-center space-x-4 group shrink-0">
-          <img src="assets/img/logo.png" alt="SVPCET Institutional Emblem" class="h-16 w-auto object-contain transition transform group-hover:scale-105 duration-200">
-          <div class="border-l-2 border-slate-200 pl-4">
-            <span class="block text-xs uppercase tracking-widest font-bold text-brand-600 font-display">Autonomous Engineering College</span>
-            <h1 class="text-xl sm:text-2xl font-black text-navy-950 leading-tight group-hover:text-brand-600 transition font-display">
+        <a href="#" class="flex items-center space-x-3 sm:space-x-4 group shrink-0">
+          <img src="assets/img/logo.png" alt="SVPCET Institutional Emblem" class="h-14 sm:h-16 w-auto object-contain transition transform group-hover:scale-105 duration-200">
+          <div class="border-l-2 border-slate-200 pl-3 sm:pl-4">
+            <span class="block text-[10px] sm:text-xs uppercase tracking-widest font-extrabold text-brand-600 font-display">Autonomous Engineering College</span>
+            <h1 class="text-lg sm:text-2xl font-black text-navy-950 leading-tight group-hover:text-brand-600 transition font-display">
               St. Vincent Pallotti
             </h1>
-            <p class="text-xs sm:text-sm text-slate-500 font-medium">College of Engineering &amp; Technology, Nagpur</p>
+            <p class="text-[11px] sm:text-xs text-slate-500 font-medium">College of Engineering &amp; Technology, Nagpur</p>
           </div>
         </a>
 
         <!-- Accreditation Badges -->
-        <div class="hidden xl:flex items-center space-x-4 bg-slate-50/80 border border-slate-200 px-4 py-2 rounded-xl shrink-0">
-          <img src="assets/img/naac.png" alt="NAAC Grade A Accredited" class="h-10 w-auto object-contain">
-          <div class="h-7 w-px bg-slate-300"></div>
-          <img src="assets/img/nba.png" alt="NBA Accredited Programs" class="h-10 w-auto object-contain">
+        <div class="hidden lg:flex items-center space-x-3.5 bg-slate-50/90 border border-slate-200/90 px-4 py-2 rounded-xl shrink-0">
+          <img src="assets/img/naac.png" alt="NAAC Grade A Accredited" class="h-9 w-auto object-contain">
+          <div class="h-6 w-px bg-slate-300"></div>
+          <img src="assets/img/nba.png" alt="NBA Accredited Programs" class="h-9 w-auto object-contain">
           <div class="text-xs text-slate-700 leading-tight font-display">
             <span class="block text-brand-700 font-extrabold">NAAC Grade 'A'</span>
-            <span class="font-semibold text-slate-500">NBA Accredited</span>
+            <span class="font-semibold text-slate-500">NBA Tier-I Accredited</span>
           </div>
         </div>
 
-        <!-- Desktop Navigation Bar: The 6 Restructured Pillars -->
-        <nav class="hidden lg:flex items-center space-x-2" aria-label="Main Navigation">
+        <!-- Right Header Actions -->
+        <div class="flex items-center space-x-3 sm:space-x-4 shrink-0">
+          <!-- Instant Search Button -->
+          <button class="trigger-search-modal hidden md:flex items-center text-slate-600 hover:text-navy-950 transition bg-slate-100 hover:bg-slate-200 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-medium border border-slate-200 font-body">
+            <svg class="w-4 h-4 mr-2 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <span>Search</span>
+            <kbd class="ml-2 text-[10px] bg-white text-slate-500 px-1.5 py-0.5 rounded border border-slate-300 font-mono shadow-xs">Ctrl K</kbd>
+          </button>
+
+          <!-- Recruiter Desk CTA -->
+          <button class="trigger-recruiter-modal hidden sm:inline-flex items-center justify-center px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-navy-950 bg-amber-400 hover:bg-amber-300 shadow-sm hover:shadow transition font-display">
+            Recruiter Desk
+          </button>
+
+          <!-- Apply Now CTA -->
+          <a href="#admissions" class="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-md shadow-brand-600/25 transition transform active:scale-95 font-display">
+            <span>Apply 2026-27</span>
+            <svg class="w-4 h-4 ml-1.5 hidden sm:inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="openMobileMenuBtn" class="p-2.5 text-slate-700 hover:text-brand-600 hover:bg-slate-100 rounded-xl transition lg:hidden" aria-label="Open mobile menu">
+            <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TIER 2: DEDICATED INSTITUTIONAL NAVIGATION BAR WITH HORIZONTAL SCROLL CONTROLS -->
+    <div class="relative bg-navy-950 text-white font-display border-t border-navy-900 shadow-inner">
+      <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-12 relative flex items-center">
+        
+        <!-- Left Scroll Chevron Button (Click to scroll left) -->
+        <button id="navScrollLeftBtn" class="flex items-center justify-center absolute left-1 sm:left-3 z-30 w-8 h-8 rounded-full bg-navy-900/95 text-white border border-navy-700 hover:bg-brand-600 hover:border-brand-500 shadow-xl transition-all duration-200 opacity-0 pointer-events-none" aria-label="Scroll navigation left" title="Scroll left">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+
+        <!-- Left Gradient Indicator Mask -->
+        <div id="navFadeLeft" class="absolute left-0 top-0 bottom-0 w-10 bg-gradient-to-r from-navy-950 via-navy-950/80 to-transparent z-20 pointer-events-none opacity-0 transition-opacity duration-200"></div>
+
+        <!-- Scrollable Navigation Pillars Container -->
+        <nav id="desktopMainNavBar" class="flex items-center space-x-1 sm:space-x-1.5 py-1.5 overflow-x-auto scrollbar-none scroll-smooth w-full select-none" aria-label="Main Navigation">
           
           <!-- Pillar 1: About SVPCET -->
-          <div class="mega-menu-trigger relative py-7">
-            <button class="nav-link-hover text-base font-bold text-slate-700 hover:text-brand-600 px-3.5 py-2 rounded-lg flex items-center transition" aria-expanded="false">
+          <div class="mega-menu-trigger group static py-1">
+            <button class="nav-link-hover text-sm sm:text-base font-bold text-slate-200 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap" aria-expanded="false">
               About
-              <svg class="w-4 h-4 ml-1 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              <svg class="w-4 h-4 ml-1.5 text-slate-400 group-hover:text-brand-300 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
-            <div class="mega-menu-container absolute left-0 top-full w-[900px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50">
-              <div class="grid grid-cols-4 gap-8">
+            <div class="mega-menu-container absolute top-full left-1/2 -translate-x-1/2 w-[min(94vw,1320px)] max-h-[78vh] overflow-y-auto bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50 text-slate-800 text-left font-body">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <h3 class="text-xs font-extrabold uppercase tracking-widest text-brand-600 mb-4 font-display">Heritage &amp; Vision</h3>
                   <ul class="space-y-3 text-sm">
@@ -178,7 +221,7 @@
                 </div>
                 <div class="bg-brand-50 rounded-2xl p-5 border border-brand-100 flex flex-col justify-between">
                   <div>
-                    <span class="inline-block px-3 py-1 rounded-full text-xs font-extrabold bg-brand-200 text-brand-800 uppercase mb-3">Campus Heritage</span>
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-extrabold bg-brand-200 text-brand-800 uppercase mb-3 font-display">Campus Heritage</span>
                     <h4 class="text-base font-bold text-navy-950 mb-2 font-display">Autonomous Excellence</h4>
                     <p class="text-xs text-slate-600 leading-relaxed mb-4">Empowering students with progressive curricula, hands-on laboratories, and deep industry partnerships.</p>
                   </div>
@@ -191,13 +234,13 @@
           </div>
 
           <!-- Pillar 2: Academics -->
-          <div class="mega-menu-trigger relative py-7">
-            <button class="nav-link-hover text-base font-bold text-slate-700 hover:text-brand-600 px-3.5 py-2 rounded-lg flex items-center transition" aria-expanded="false">
+          <div class="mega-menu-trigger group static py-1">
+            <button class="nav-link-hover text-sm sm:text-base font-bold text-slate-200 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap" aria-expanded="false">
               Academics
-              <svg class="w-4 h-4 ml-1 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              <svg class="w-4 h-4 ml-1.5 text-slate-400 group-hover:text-brand-300 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
-            <div class="mega-menu-container absolute left-0 top-full w-[940px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50">
-              <div class="grid grid-cols-4 gap-8">
+            <div class="mega-menu-container absolute top-full left-1/2 -translate-x-1/2 w-[min(94vw,1320px)] max-h-[78vh] overflow-y-auto bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50 text-slate-800 text-left font-body">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <h3 class="text-xs font-extrabold uppercase tracking-widest text-brand-600 mb-4 font-display">B.Tech Emerging Tech</h3>
                   <ul class="space-y-3 text-sm">
@@ -245,14 +288,14 @@
           </div>
 
           <!-- Pillar 3: Admissions 2026-27 -->
-          <div class="mega-menu-trigger relative py-7">
-            <button class="nav-link-hover text-base font-bold text-slate-700 hover:text-brand-600 px-3.5 py-2 rounded-lg flex items-center transition" aria-expanded="false">
+          <div class="mega-menu-trigger group static py-1">
+            <button class="nav-link-hover text-sm sm:text-base font-bold text-slate-200 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap" aria-expanded="false">
               Admissions
-              <span class="ml-2 px-2 py-0.5 text-xs font-extrabold bg-amber-100 text-amber-800 rounded-full border border-amber-300">2026</span>
-              <svg class="w-4 h-4 ml-1 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              <span class="ml-2 px-2 py-0.5 text-xs font-extrabold bg-amber-400/20 text-amber-300 rounded-full border border-amber-400/30">2026</span>
+              <svg class="w-4 h-4 ml-1.5 text-slate-400 group-hover:text-brand-300 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
-            <div class="mega-menu-container absolute left-0 top-full w-[900px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50">
-              <div class="grid grid-cols-4 gap-8">
+            <div class="mega-menu-container absolute top-full left-1/2 -translate-x-1/2 w-[min(94vw,1320px)] max-h-[78vh] overflow-y-auto bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50 text-slate-800 text-left font-body">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <h3 class="text-xs font-extrabold uppercase tracking-widest text-brand-600 mb-4 font-display">Degrees Offered</h3>
                   <ul class="space-y-3 text-sm">
@@ -297,13 +340,13 @@
           </div>
 
           <!-- Pillar 4: Research & Innovation -->
-          <div class="mega-menu-trigger relative py-7">
-            <button class="nav-link-hover text-base font-bold text-slate-700 hover:text-brand-600 px-3.5 py-2 rounded-lg flex items-center transition" aria-expanded="false">
+          <div class="mega-menu-trigger group static py-1">
+            <button class="nav-link-hover text-sm sm:text-base font-bold text-slate-200 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap" aria-expanded="false">
               Research
-              <svg class="w-4 h-4 ml-1 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              <svg class="w-4 h-4 ml-1.5 text-slate-400 group-hover:text-brand-300 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
-            <div class="mega-menu-container absolute left-0 top-full w-[880px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50">
-              <div class="grid grid-cols-4 gap-8">
+            <div class="mega-menu-container absolute top-full left-1/2 -translate-x-1/2 w-[min(94vw,1320px)] max-h-[78vh] overflow-y-auto bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50 text-slate-800 text-left font-body">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <h3 class="text-xs font-extrabold uppercase tracking-widest text-brand-600 mb-4 font-display">Centers of Excellence</h3>
                   <ul class="space-y-3 text-sm">
@@ -345,14 +388,14 @@
           </div>
 
           <!-- Pillar 5: Corporates & Placements (CDC) -->
-          <div class="mega-menu-trigger relative py-7">
-            <button class="nav-link-hover text-base font-bold text-slate-700 hover:text-brand-600 px-3.5 py-2 rounded-lg flex items-center transition" aria-expanded="false">
+          <div class="mega-menu-trigger group static py-1">
+            <button class="nav-link-hover text-sm sm:text-base font-bold text-slate-200 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap" aria-expanded="false">
               Placements
-              <span class="ml-2 px-2 py-0.5 text-xs font-extrabold bg-emerald-100 text-emerald-800 rounded-full border border-emerald-300">CDC</span>
-              <svg class="w-4 h-4 ml-1 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              <span class="ml-2 px-2 py-0.5 text-xs font-extrabold bg-emerald-500/20 text-emerald-300 rounded-full border border-emerald-500/30">CDC</span>
+              <svg class="w-4 h-4 ml-1.5 text-slate-400 group-hover:text-brand-300 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
-            <div class="mega-menu-container absolute left-0 top-full w-[900px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50">
-              <div class="grid grid-cols-4 gap-8">
+            <div class="mega-menu-container absolute top-full left-1/2 -translate-x-1/2 w-[min(94vw,1320px)] max-h-[78vh] overflow-y-auto bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50 text-slate-800 text-left font-body">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <h3 class="text-xs font-extrabold uppercase tracking-widest text-brand-600 mb-4 font-display">CDC Operations</h3>
                   <ul class="space-y-3 text-sm">
@@ -395,13 +438,13 @@
           </div>
 
           <!-- Pillar 6: Campus Life -->
-          <div class="mega-menu-trigger relative py-7">
-            <button class="nav-link-hover text-base font-bold text-slate-700 hover:text-brand-600 px-3.5 py-2 rounded-lg flex items-center transition" aria-expanded="false">
+          <div class="mega-menu-trigger group static py-1">
+            <button class="nav-link-hover text-sm sm:text-base font-bold text-slate-200 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap" aria-expanded="false">
               Campus Life
-              <svg class="w-4 h-4 ml-1 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              <svg class="w-4 h-4 ml-1.5 text-slate-400 group-hover:text-brand-300 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
-            <div class="mega-menu-container absolute right-0 top-full w-[900px] bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50">
-              <div class="grid grid-cols-4 gap-8">
+            <div class="mega-menu-container absolute top-full left-1/2 -translate-x-1/2 w-[min(94vw,1320px)] max-h-[78vh] overflow-y-auto bg-white rounded-3xl shadow-2xl border border-slate-200 p-8 z-50 text-slate-800 text-left font-body">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                   <h3 class="text-xs font-extrabold uppercase tracking-widest text-brand-600 mb-4 font-display">Facilities</h3>
                   <ul class="space-y-3 text-sm">
@@ -443,34 +486,47 @@
             </div>
           </div>
 
-        </nav>
+          <!-- Divider -->
+          <div class="h-5 w-px bg-navy-800 shrink-0"></div>
 
-        <!-- Right Header Actions -->
-        <div class="flex items-center space-x-4 shrink-0">
-          <button class="trigger-recruiter-modal hidden sm:inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm font-bold text-navy-950 bg-amber-400 hover:bg-amber-300 shadow-md transition font-display">
-            Recruiter Desk
-          </button>
-
-          <a href="#admissions" class="hidden sm:inline-flex items-center justify-center px-6 py-3 rounded-xl text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-lg shadow-brand-600/25 transition transform active:scale-95 font-display">
-            Apply Now 2026-27
-            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          <!-- Direct Shortcut Links in Tier 2 -->
+          <a href="department-template.html" class="text-sm font-bold text-brand-300 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap shrink-0">
+            <span class="w-2 h-2 rounded-full bg-brand-400 mr-2 animate-pulse"></span>
+            CSE Portal
           </a>
 
-          <!-- Mobile Hamburger Toggle -->
-          <button id="openMobileMenuBtn" class="p-2.5 text-slate-700 hover:text-brand-600 hover:bg-slate-100 rounded-xl transition lg:hidden" aria-label="Open mobile menu">
-            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-          </button>
-        </div>
+          <a href="#fee-calculator" class="text-sm font-bold text-slate-300 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap shrink-0">
+            Fee Estimator
+          </a>
+
+          <a href="#notices" class="text-sm font-bold text-slate-300 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap shrink-0">
+            Exam Bulletins
+          </a>
+
+          <a href="http://erp.stvincentngp.edu.in/adminlogin_.aspx" target="_blank" rel="noopener" class="text-sm font-bold text-amber-300 hover:text-white hover:bg-white/10 px-3.5 py-2 rounded-xl flex items-center transition whitespace-nowrap shrink-0">
+            MIS ERP
+          </a>
+
+        </nav>
+
+        <!-- Right Gradient Indicator Mask -->
+        <div id="navFadeRight" class="absolute right-0 top-0 bottom-0 w-10 bg-gradient-to-l from-navy-950 via-navy-950/80 to-transparent z-20 pointer-events-none opacity-0 transition-opacity duration-200"></div>
+
+        <!-- Right Scroll Chevron Button (Click to scroll right) -->
+        <button id="navScrollRightBtn" class="flex items-center justify-center absolute right-1 sm:right-3 z-30 w-8 h-8 rounded-full bg-navy-900/95 text-white border border-navy-700 hover:bg-brand-600 hover:border-brand-500 shadow-xl transition-all duration-200 opacity-0 pointer-events-none" aria-label="Scroll navigation right" title="Scroll right">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+        </button>
 
       </div>
     </div>
   </header>
 
   <!-- =========================================================================
-       3. MOBILE NAVIGATION DRAWER
+       3. MOBILE NAVIGATION DRAWER (ACCORDION EXPANDABLE)
        ========================================================================= -->
   <div id="mobileDrawerBackdrop" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden transition-opacity"></div>
   <div id="mobileMenuDrawer" class="fixed top-0 right-0 bottom-0 w-full max-w-sm bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col font-display">
+    
     <div class="p-5 border-b border-slate-200 flex items-center justify-between bg-slate-50">
       <div class="flex items-center space-x-3">
         <img src="assets/img/logo.png" alt="Logo" class="h-10 w-auto">
@@ -484,35 +540,122 @@
       </button>
     </div>
 
-    <div class="p-5 border-b border-slate-100 font-body">
-      <button class="trigger-search-modal w-full flex items-center justify-between px-4 py-3 text-sm text-slate-500 bg-slate-100 rounded-xl">
+    <div class="p-4 border-b border-slate-100 font-body">
+      <button class="trigger-search-modal w-full flex items-center justify-between px-4 py-2.5 text-sm text-slate-500 bg-slate-100 rounded-xl">
         <span class="flex items-center">
           <svg class="w-4 h-4 mr-2.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-          Search branches, fees, notices...
+          Search departments, fees, notices...
         </span>
         <kbd class="text-xs bg-slate-200 px-2 py-0.5 rounded font-mono">Ctrl K</kbd>
       </button>
     </div>
 
-    <div class="flex-1 overflow-y-auto p-5 space-y-4 font-display">
-      <div class="border-b border-slate-100 pb-3">
-        <a href="#corporate" class="block py-2 font-bold text-amber-600 text-lg hover:text-amber-700">Corporate &amp; Recruiters Hub</a>
+    <div class="flex-1 overflow-y-auto p-5 space-y-3 font-display">
+      
+      <!-- Accordion 1: About SVPCET -->
+      <div class="border-b border-slate-100 pb-2">
+        <button class="mobile-acc-trigger w-full flex items-center justify-between py-2 text-left font-bold text-slate-800 text-base hover:text-brand-600" data-target="mob-about">
+          <span>About SVPCET</span>
+          <svg class="acc-icon w-4 h-4 text-slate-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="mob-about" class="mobile-acc-content hidden pl-3 pr-1 py-2 space-y-2 text-sm text-slate-600 font-body">
+          <a href="#about" class="block hover:text-brand-600">About Institution &amp; Heritage</a>
+          <a href="#about" class="block hover:text-brand-600">Vision, Mission &amp; Values</a>
+          <a href="#leadership" class="block hover:text-brand-600">Leadership &amp; Principal's Desk</a>
+          <a href="#about" class="block text-brand-700 font-semibold">NAAC 'A' &amp; NBA Accreditations</a>
+        </div>
       </div>
-      <div class="border-b border-slate-100 pb-3">
-        <a href="department-template.html" class="block py-2 font-bold text-brand-600 text-lg hover:text-brand-700">Computer Science &amp; Engg Portal</a>
+
+      <!-- Accordion 2: Academics -->
+      <div class="border-b border-slate-100 pb-2">
+        <button class="mobile-acc-trigger w-full flex items-center justify-between py-2 text-left font-bold text-slate-800 text-base hover:text-brand-600" data-target="mob-academics">
+          <span>Academics &amp; Degrees</span>
+          <svg class="acc-icon w-4 h-4 text-slate-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="mob-academics" class="mobile-acc-content hidden pl-3 pr-1 py-2 space-y-2 text-sm text-slate-600 font-body">
+          <a href="department-template.html" class="block font-bold text-brand-700">Computer Science &amp; Engg Portal &rarr;</a>
+          <a href="#departments" class="block hover:text-brand-600">Artificial Intelligence &amp; Data Science</a>
+          <a href="#departments" class="block hover:text-brand-600">Electronics &amp; Telecommunication</a>
+          <a href="#departments" class="block hover:text-brand-600">Electrical &amp; Mechanical Engineering</a>
+          <a href="#departments" class="block hover:text-brand-600">Civil Engineering &amp; CSBS (TCS)</a>
+          <a href="#notices" class="block text-amber-700 font-semibold">Autonomous Syllabus 2026-27</a>
+        </div>
       </div>
-      <div class="border-b border-slate-100 pb-3">
-        <a href="#departments" class="block py-2 font-bold text-slate-800 text-lg hover:text-brand-600">13 Academic Disciplines</a>
+
+      <!-- Accordion 3: Admissions 2026 -->
+      <div class="border-b border-slate-100 pb-2">
+        <button class="mobile-acc-trigger w-full flex items-center justify-between py-2 text-left font-bold text-slate-800 text-base hover:text-brand-600" data-target="mob-admissions">
+          <span class="flex items-center">
+            Admissions 2026-27
+            <span class="ml-2 px-1.5 py-0.5 text-[10px] font-extrabold bg-amber-100 text-amber-800 rounded">DTE: 4174</span>
+          </span>
+          <svg class="acc-icon w-4 h-4 text-slate-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="mob-admissions" class="mobile-acc-content hidden pl-3 pr-1 py-2 space-y-2 text-sm text-slate-600 font-body">
+          <a href="#admissions" class="block hover:text-brand-600">B.Tech First Year &amp; Direct Second Year (CAP)</a>
+          <a href="#fee-calculator" class="block font-bold text-brand-700">Interactive Fee Estimator</a>
+          <a href="#admissions" class="block hover:text-brand-600">Eligibility, Cut-offs &amp; Seat Matrix</a>
+          <a href="#admissions" class="block hover:text-brand-600">Government Scholarships (OBC/EBC/SC/ST)</a>
+        </div>
       </div>
-      <div class="border-b border-slate-100 pb-3">
-        <a href="#fee-calculator" class="block py-2 font-bold text-slate-800 text-lg hover:text-brand-600">Interactive Fee Estimator</a>
+
+      <!-- Accordion 4: Research & Innovation -->
+      <div class="border-b border-slate-100 pb-2">
+        <button class="mobile-acc-trigger w-full flex items-center justify-between py-2 text-left font-bold text-slate-800 text-base hover:text-brand-600" data-target="mob-research">
+          <span>Research &amp; Innovation</span>
+          <svg class="acc-icon w-4 h-4 text-slate-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="mob-research" class="mobile-acc-content hidden pl-3 pr-1 py-2 space-y-2 text-sm text-slate-600 font-body">
+          <a href="#research" class="block hover:text-brand-600">Texcelrators Drone Lab</a>
+          <a href="#research" class="block hover:text-brand-600">e-Yantra Robotics &amp; AI Lab</a>
+          <a href="#research" class="block hover:text-brand-600">IEDC Incubation Hub &amp; Startups</a>
+          <a href="#research" class="block hover:text-brand-600">Ph.D. Research Center &amp; Patents</a>
+        </div>
       </div>
-      <div class="border-b border-slate-100 pb-3">
-        <a href="#campus-life" class="block py-2 font-bold text-slate-800 text-lg hover:text-brand-600">Campus Life &amp; Hostels</a>
+
+      <!-- Accordion 5: Placements CDC -->
+      <div class="border-b border-slate-100 pb-2">
+        <button class="mobile-acc-trigger w-full flex items-center justify-between py-2 text-left font-bold text-slate-800 text-base hover:text-brand-600" data-target="mob-placements">
+          <span class="flex items-center">
+            Placements &amp; Corporates
+            <span class="ml-2 px-1.5 py-0.5 text-[10px] font-extrabold bg-emerald-100 text-emerald-800 rounded">CDC</span>
+          </span>
+          <svg class="acc-icon w-4 h-4 text-slate-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="mob-placements" class="mobile-acc-content hidden pl-3 pr-1 py-2 space-y-2 text-sm text-slate-600 font-body">
+          <a href="#corporate" class="block font-bold text-emerald-700">Placement Records &amp; 670+ Offers</a>
+          <a href="#corporate" class="block hover:text-brand-600">100+ Recruiter Partners</a>
+          <button class="trigger-recruiter-modal block w-full text-left font-bold text-brand-700 hover:underline">Schedule Campus Drive</button>
+          <a href="#corporate" class="block hover:text-brand-600">Training &amp; Soft Skills Cell</a>
+        </div>
       </div>
-      <div class="border-b border-slate-100 pb-3">
-        <a href="#notices" class="block py-2 font-bold text-brand-700 text-lg hover:text-brand-900">Autonomous Exam Cell Bulletins</a>
+
+      <!-- Accordion 6: Campus Life -->
+      <div class="border-b border-slate-100 pb-2">
+        <button class="mobile-acc-trigger w-full flex items-center justify-between py-2 text-left font-bold text-slate-800 text-base hover:text-brand-600" data-target="mob-campus">
+          <span>Campus Life</span>
+          <svg class="acc-icon w-4 h-4 text-slate-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="mob-campus" class="mobile-acc-content hidden pl-3 pr-1 py-2 space-y-2 text-sm text-slate-600 font-body">
+          <a href="#campus-life" class="block hover:text-brand-600">Boys &amp; Girls Hostels</a>
+          <a href="#campus-life" class="block hover:text-brand-600">Central Knowledge Library</a>
+          <a href="#campus-life" class="block hover:text-brand-600">Sports Complex &amp; Gymkhana</a>
+          <a href="#campus-life" class="block hover:text-brand-600">NSS, Rotaract &amp; Technex Fests</a>
+        </div>
       </div>
+
+      <!-- Quick Portal Links -->
+      <div class="pt-2 space-y-2 text-sm font-semibold text-slate-700 font-body">
+        <a href="http://erp.stvincentngp.edu.in/adminlogin_.aspx" target="_blank" rel="noopener" class="flex items-center text-brand-700 hover:text-brand-900 py-1.5">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"/></svg>
+          Pallotti MIS Portal (ERP Login)
+        </a>
+        <a href="#notices" class="flex items-center text-slate-700 hover:text-brand-600 py-1.5">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          Autonomous Examination Bulletins
+        </a>
+      </div>
+
     </div>
 
     <div class="p-5 bg-slate-50 border-t border-slate-200 space-y-3 font-display">

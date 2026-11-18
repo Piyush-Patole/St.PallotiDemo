@@ -5,6 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initStickyHeader();
+  initNavScrollControls();
   initMobileDrawer();
   initSearchModal();
   initProgramFilter();
@@ -15,6 +16,107 @@ document.addEventListener('DOMContentLoaded', () => {
   initPlacementTicker();
   initRecruiterModal();
 });
+
+/* -------------------------------------------------------------
+   0. Navigation Bar Horizontal Scroll Controls & Wheel Support
+   ------------------------------------------------------------- */
+function initNavScrollControls() {
+  const nav = document.getElementById('desktopMainNavBar');
+  const leftBtn = document.getElementById('navScrollLeftBtn');
+  const rightBtn = document.getElementById('navScrollRightBtn');
+  const fadeLeft = document.getElementById('navFadeLeft');
+  const fadeRight = document.getElementById('navFadeRight');
+
+  // Support any horizontal scroll tabs (e.g. department page tabs or notice tabs)
+  const allScrollContainers = document.querySelectorAll('.horizontal-scroll-nav, #desktopMainNavBar');
+
+  allScrollContainers.forEach(container => {
+    // Enable mouse wheel to horizontal scroll
+    container.addEventListener('wheel', (e) => {
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && container.scrollWidth > container.clientWidth) {
+        e.preventDefault();
+        container.scrollLeft += e.deltaY;
+      }
+    }, { passive: false });
+
+    // Enable drag-to-scroll
+    let isDown = false;
+    let startX = 0;
+    let scrollStart = 0;
+
+    container.addEventListener('mousedown', (e) => {
+      if (e.target.closest('a') || e.target.closest('button')) return;
+      isDown = true;
+      startX = e.pageX - container.offsetLeft;
+      scrollStart = container.scrollLeft;
+      container.style.cursor = 'grabbing';
+      container.style.userSelect = 'none';
+    });
+
+    const stopDrag = () => {
+      if (!isDown) return;
+      isDown = false;
+      container.style.cursor = '';
+      container.style.userSelect = '';
+    };
+
+    container.addEventListener('mouseleave', stopDrag);
+    container.addEventListener('mouseup', stopDrag);
+    container.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - container.offsetLeft;
+      const walk = (x - startX) * 1.5;
+      container.scrollLeft = scrollStart - walk;
+    });
+  });
+
+  if (!nav) return;
+
+  const updateScrollIndicators = () => {
+    const maxScroll = nav.scrollWidth - nav.clientWidth;
+    const currentScroll = nav.scrollLeft;
+
+    if (maxScroll > 15) {
+      if (currentScroll > 20) {
+        leftBtn?.classList.remove('opacity-0', 'pointer-events-none');
+        fadeLeft?.classList.remove('opacity-0');
+      } else {
+        leftBtn?.classList.add('opacity-0', 'pointer-events-none');
+        fadeLeft?.classList.add('opacity-0');
+      }
+
+      if (currentScroll < maxScroll - 20) {
+        rightBtn?.classList.remove('opacity-0', 'pointer-events-none');
+        fadeRight?.classList.remove('opacity-0');
+      } else {
+        rightBtn?.classList.add('opacity-0', 'pointer-events-none');
+        fadeRight?.classList.add('opacity-0');
+      }
+    } else {
+      leftBtn?.classList.add('opacity-0', 'pointer-events-none');
+      rightBtn?.classList.add('opacity-0', 'pointer-events-none');
+      fadeLeft?.classList.add('opacity-0');
+      fadeRight?.classList.add('opacity-0');
+    }
+  };
+
+  leftBtn?.addEventListener('click', (e) => {
+    e.preventDefault();
+    nav.scrollBy({ left: -280, behavior: 'smooth' });
+    setTimeout(updateScrollIndicators, 300);
+  });
+
+  rightBtn?.addEventListener('click', (e) => {
+    e.preventDefault();
+    nav.scrollBy({ left: 280, behavior: 'smooth' });
+    setTimeout(updateScrollIndicators, 300);
+  });
+
+  nav.addEventListener('scroll', updateScrollIndicators, { passive: true });
+  window.addEventListener('resize', updateScrollIndicators, { passive: true });
+  setTimeout(updateScrollIndicators, 150);
+}
 
 /* -------------------------------------------------------------
    1. Sticky Header with Scroll Detection

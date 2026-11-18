@@ -46,19 +46,41 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .header-sticky.scrolled {
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 10px 30px -5px rgba(5, 15, 30, 0.06);
+  box-shadow: 0 10px 30px -5px rgba(5, 15, 30, 0.08);
 }
 
-/* Mega Menu Container */
+/* Custom Scrollbar Hide Utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Mega Menu Container (Centered, Never Cuts Off Viewport) */
 .mega-menu-container {
   display: none;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(10px);
-  transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  left: 50% !important;
+  transform: translate(-50%, 8px);
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+/* Invisible Hover Bridge between button and dropdown */
+.mega-menu-container::before {
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
 }
 
 .mega-menu-trigger:hover .mega-menu-container,
@@ -67,7 +89,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   display: block;
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translate(-50%, 0);
+  pointer-events: auto;
 }
 
 /* Nav Link Hover Underline */
