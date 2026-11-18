@@ -1,6 +1,6 @@
 /* ==========================================================================
    St. Vincent Pallotti College of Engineering & Technology (SVPCET)
-   Modern Institutional Design System & Styles
+   Modern Institutional Design System & Styles (Panoramic & High-Impact)
    ========================================================================== */
 
 :root {
@@ -42,9 +42,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   transition: all 0.25s ease-in-out;
 }
 .header-sticky.scrolled {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 4px 25px -4px rgba(11, 37, 69, 0.08);
 }
 
 /* Mega Menu Dropdown Architecture */
@@ -84,18 +84,32 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   width: 100%;
 }
 
-/* Infinite Recruiter Marquee */
-@keyframes marquee {
+/* Infinite Recruiter Marquee - Row 1 & Row 2 */
+@keyframes marquee-forward {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
 }
 
 .animate-marquee {
   display: flex;
   width: max-content;
-  animation: marquee 35s linear infinite;
+  animation: marquee-forward 32s linear infinite;
 }
 .animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-rev {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 35s linear infinite;
+}
+.animate-marquee-rev:hover {
   animation-play-state: paused;
 }
 
@@ -104,8 +118,29 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .hover-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(11, 37, 69, 0.12);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 35px -10px rgba(11, 37, 69, 0.14);
+}
+
+/* Subtle Gradient Glow Borders */
+.gradient-border-card {
+  position: relative;
+  border-radius: 1rem;
+  background: white;
+  transition: all 0.3s ease;
+}
+.gradient-border-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 1.05rem;
+  background: linear-gradient(135deg, rgba(0, 135, 162, 0.4), rgba(5, 150, 105, 0.2), rgba(11, 37, 69, 0.3));
+  z-index: -1;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+.gradient-border-card:hover::before {
+  opacity: 1;
 }
 
 /* Custom Scrollbar */
@@ -126,6 +161,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* Search Modal backdrop */
 .modal-backdrop {
-  background: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(4px);
+  background: rgba(11, 37, 69, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+/* Floating Action Pill */
+.floating-action-pill {
+  box-shadow: 0 10px 30px -5px rgba(0, 135, 162, 0.5);
+  animation: float-subtle 4s ease-in-out infinite alternate;
+}
+@keyframes float-subtle {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-4px); }
 }

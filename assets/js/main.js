@@ -1,6 +1,6 @@
 /**
  * St. Vincent Pallotti College of Engineering & Technology (SVPCET)
- * Modern Institutional Client Architecture
+ * Modern Institutional Client Architecture (High-Impact & Panoramic)
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initFeeCalculator();
   initNoticeTabs();
   initStatsCounter();
+  initCampusGalleryTabs();
+  initPlacementTicker();
+  initRecruiterModal();
 });
 
 /* -------------------------------------------------------------
@@ -58,7 +61,6 @@ function initMobileDrawer() {
   closeBtn?.addEventListener('click', () => toggle(false));
   backdrop?.addEventListener('click', () => toggle(false));
 
-  // Mobile Accordion items
   document.querySelectorAll('.mobile-acc-trigger').forEach(trigger => {
     trigger.addEventListener('click', () => {
       const targetId = trigger.getAttribute('data-target');
@@ -109,7 +111,6 @@ function initSearchModal() {
     if (e.target === modal) closeModal();
   });
 
-  // Shortcut key: Ctrl + K or Cmd + K
   window.addEventListener('keydown', (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
       e.preventDefault();
@@ -120,26 +121,25 @@ function initSearchModal() {
     }
   });
 
-  // Search indexing
   const searchablePages = [
-    { title: 'Computer Science & Engineering', category: 'Academic Department', url: '#departments' },
+    { title: 'Computer Science & Engineering (B.Tech & M.Tech)', category: 'Academic Department', url: 'department-template.html' },
     { title: 'Artificial Intelligence & Machine Learning', category: 'Academic Department', url: '#departments' },
-    { title: 'Data Science (B.Tech)', category: 'Academic Department', url: '#departments' },
-    { title: 'Cyber Security (B.Tech)', category: 'Academic Department', url: '#departments' },
-    { title: 'Robotics & AI', category: 'Academic Department', url: '#departments' },
-    { title: 'Computer Science & Business Systems (TCS)', category: 'Academic Department', url: '#departments' },
+    { title: 'Data Science (B.Tech CSE Track)', category: 'Academic Department', url: '#departments' },
+    { title: 'Cyber Security (B.Tech Defense Track)', category: 'Academic Department', url: '#departments' },
+    { title: 'Robotics & Artificial Intelligence', category: 'Academic Department', url: '#departments' },
+    { title: 'Computer Science & Business Systems (TCS Curated)', category: 'Academic Department', url: '#departments' },
     { title: 'Electrical Engineering (NBA Accredited)', category: 'Academic Department', url: '#departments' },
-    { title: 'Electronics & Telecommunication', category: 'Academic Department', url: '#departments' },
-    { title: 'Mechanical Engineering', category: 'Academic Department', url: '#departments' },
-    { title: 'Civil Engineering', category: 'Academic Department', url: '#departments' },
+    { title: 'Electronics & Telecommunication (5G/VLSI)', category: 'Academic Department', url: '#departments' },
+    { title: 'Mechanical Engineering (CAD/CAM & EV)', category: 'Academic Department', url: '#departments' },
+    { title: 'Civil Engineering (Smart Infrastructure)', category: 'Academic Department', url: '#departments' },
     { title: 'B.Tech Admissions 2026-27 & CAP Eligibility', category: 'Admissions', url: '#admissions' },
-    { title: 'Fee Structure & Scholarships Calculator', category: 'Admissions', url: '#fee-calculator' },
-    { title: 'Autonomous Exam Cell & Timetables', category: 'Academics & Exams', url: '#notices' },
-    { title: 'Career Development & Placement Records', category: 'Placements', url: '#placements' },
-    { title: 'Drone Lab (Texcelrators)', category: 'Research & Labs', url: '#research' },
-    { title: 'Boys & Girls Hostels Facilities', category: 'Campus Life', url: '#hostels' },
-    { title: 'NAAC A Grade & NBA Accreditations', category: 'Governance & NIRF', url: '#about' },
-    { title: 'Emergency Contacts & 24x7 Security Guards', category: 'Contact & Safety', url: '#contact' }
+    { title: 'Interactive Fee Structure & Concessions Calculator', category: 'Admissions & Fees', url: '#fee-calculator' },
+    { title: 'Corporate Recruitment & CDC Placement Records', category: 'Corporate Hub', url: '#corporate' },
+    { title: 'Autonomous Exam Cell & Winter 2026 Timetables', category: 'Academics & Exams', url: '#notices' },
+    { title: 'Texcelrators Drone Innovation Lab', category: 'Research & Labs', url: '#research' },
+    { title: 'Residential Hostels & Sports Complex', category: 'Campus Life', url: '#campus-life' },
+    { title: 'NAAC A Grade & NBA Accreditations Portfolio', category: 'Governance & NIRF', url: '#about' },
+    { title: '24x7 Campus Security Guards & Emergency Gate Numbers', category: 'Safety & Contacts', url: '#contact' }
   ];
 
   function renderSearchIndex(query) {
@@ -153,19 +153,19 @@ function initSearchModal() {
       resultsContainer.innerHTML = `
         <div class="py-8 text-center text-slate-500">
           <p class="font-medium">No results found for "${escapeHtml(query)}"</p>
-          <p class="text-sm mt-1">Try searching for "CSE", "Fees", "Admissions", "Placements", or "Exam".</p>
+          <p class="text-sm mt-1">Try searching for "CSE", "Fees", "Placements", "Corporate", or "Exam".</p>
         </div>
       `;
       return;
     }
 
     resultsContainer.innerHTML = filtered.map(item => `
-      <a href="${item.url}" class="search-result-item flex items-center justify-between p-3 rounded-lg hover:bg-cyan-50 transition border border-transparent hover:border-cyan-200 group">
+      <a href="${item.url}" class="search-result-item flex items-center justify-between p-3.5 rounded-xl hover:bg-brand-50 transition border border-transparent hover:border-brand-200 group">
         <div>
-          <span class="text-xs uppercase font-semibold tracking-wider text-cyan-700 bg-cyan-100 px-2 py-0.5 rounded-full">${item.category}</span>
-          <h4 class="font-medium text-slate-800 group-hover:text-cyan-800 mt-1">${item.title}</h4>
+          <span class="text-[10px] uppercase font-bold tracking-wider text-brand-700 bg-brand-100 px-2 py-0.5 rounded-full">${item.category}</span>
+          <h4 class="font-semibold text-slate-800 group-hover:text-brand-700 mt-1 text-sm">${item.title}</h4>
         </div>
-        <svg class="w-5 h-5 text-slate-400 group-hover:text-cyan-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-5 h-5 text-slate-400 group-hover:text-brand-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
       </a>
@@ -213,11 +213,11 @@ function initProgramFilter() {
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       buttons.forEach(b => {
-        b.classList.remove('bg-cyan-700', 'text-white', 'shadow-sm');
-        b.classList.add('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
+        b.classList.remove('bg-brand-600', 'text-white', 'shadow-sm');
+        b.classList.add('bg-white', 'text-slate-700', 'hover:bg-slate-100');
       });
-      btn.classList.remove('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
-      btn.classList.add('bg-cyan-700', 'text-white', 'shadow-sm');
+      btn.classList.remove('bg-white', 'text-slate-700', 'hover:bg-slate-100');
+      btn.classList.add('bg-brand-600', 'text-white', 'shadow-sm');
 
       currentCategory = btn.getAttribute('data-filter');
       filterCards();
@@ -317,10 +317,10 @@ function initNoticeTabs() {
       const targetId = tab.getAttribute('data-target');
 
       tabs.forEach(t => {
-        t.classList.remove('border-cyan-600', 'text-cyan-700', 'font-semibold');
+        t.classList.remove('border-brand-600', 'text-brand-700', 'font-semibold');
         t.classList.add('border-transparent', 'text-slate-500', 'hover:text-slate-700');
       });
-      tab.classList.add('border-cyan-600', 'text-cyan-700', 'font-semibold');
+      tab.classList.add('border-brand-600', 'text-brand-700', 'font-semibold');
       tab.classList.remove('border-transparent', 'text-slate-500');
 
       panels.forEach(p => {
@@ -335,7 +335,120 @@ function initNoticeTabs() {
 }
 
 /* -------------------------------------------------------------
-   7. Animated Stats Counter
+   7. Campus Life Gallery Tabs
+   ------------------------------------------------------------- */
+function initCampusGalleryTabs() {
+  const buttons = document.querySelectorAll('.campus-gallery-btn');
+  const items = document.querySelectorAll('.campus-gallery-item');
+
+  if (!buttons.length || !items.length) return;
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetFilter = btn.getAttribute('data-filter');
+
+      buttons.forEach(b => {
+        b.classList.remove('bg-brand-600', 'text-white', 'shadow-md');
+        b.classList.add('bg-white', 'text-slate-700', 'hover:bg-slate-100');
+      });
+      btn.classList.add('bg-brand-600', 'text-white', 'shadow-md');
+      btn.classList.remove('bg-white', 'text-slate-700');
+
+      items.forEach(item => {
+        const cat = item.getAttribute('data-category');
+        if (targetFilter === 'all' || cat === targetFilter) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    });
+  });
+}
+
+/* -------------------------------------------------------------
+   8. Rotating Live Placement Ticker
+   ------------------------------------------------------------- */
+function initPlacementTicker() {
+  const tickerEl = document.getElementById('livePlacementTicker');
+  if (!tickerEl) return;
+
+  const highlights = [
+    { name: "Pranay Deshmukh", dept: "B.Tech CSE", company: "Persistent Systems", ctc: "₹ 12.5 LPA" },
+    { name: "Ananya Roy", dept: "B.Tech AI", company: "TCS Research Digital", ctc: "₹ 9.2 LPA" },
+    { name: "Saurabh Joshi", dept: "B.Tech Electrical", company: "Schneider Electric", ctc: "₹ 8.4 LPA" },
+    { name: "Ritika Gedam", dept: "B.Tech Cyber Sec", company: "Capgemini Defense", ctc: "₹ 8.0 LPA" },
+    { name: "Harshil Patel", dept: "B.Tech Mechanical", company: "Tata Motors Tech", ctc: "₹ 7.8 LPA" },
+    { name: "Divya Meshram", dept: "B.Tech ETC", company: "Hexaware Cloud", ctc: "₹ 8.5 LPA" }
+  ];
+
+  let idx = 0;
+  setInterval(() => {
+    idx = (idx + 1) % highlights.length;
+    const h = highlights[idx];
+    tickerEl.style.opacity = '0';
+    tickerEl.style.transform = 'translateY(5px)';
+
+    setTimeout(() => {
+      tickerEl.innerHTML = `
+        <span class="inline-flex items-center text-xs font-semibold text-emerald-400">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 mr-2 animate-ping"></span>
+          Placement Offer:
+        </span>
+        <span class="text-white font-bold ml-1.5">${h.name}</span>
+        <span class="text-slate-400 ml-1">(${h.dept})</span>
+        <span class="text-slate-300 ml-1">&rarr;</span>
+        <span class="text-amber-300 font-bold ml-1">${h.company}</span>
+        <span class="ml-1.5 px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">${h.ctc}</span>
+      `;
+      tickerEl.style.opacity = '1';
+      tickerEl.style.transform = 'translateY(0)';
+    }, 250);
+  }, 4000);
+}
+
+/* -------------------------------------------------------------
+   9. Corporate Drive Booking Modal
+   ------------------------------------------------------------- */
+function initRecruiterModal() {
+  const modal = document.getElementById('recruiterModal');
+  const openBtns = document.querySelectorAll('.trigger-recruiter-modal');
+  const closeBtn = document.getElementById('closeRecruiterModalBtn');
+  const form = document.getElementById('recruiterBookingForm');
+  const successMsg = document.getElementById('recruiterSuccessMsg');
+
+  if (!modal) return;
+
+  const open = () => {
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  };
+  const close = () => {
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  };
+
+  openBtns.forEach(b => b.addEventListener('click', open));
+  closeBtn?.addEventListener('click', close);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) close();
+  });
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    form.classList.add('hidden');
+    successMsg?.classList.remove('hidden');
+    setTimeout(() => {
+      close();
+      form.reset();
+      form.classList.remove('hidden');
+      successMsg?.classList.add('hidden');
+    }, 3000);
+  });
+}
+
+/* -------------------------------------------------------------
+   10. Animated Stats Counter
    ------------------------------------------------------------- */
 function initStatsCounter() {
   const counters = document.querySelectorAll('.stat-counter');
