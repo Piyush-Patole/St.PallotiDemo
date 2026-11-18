@@ -1,0 +1,131 @@
+/* ==========================================================================
+   St. Vincent Pallotti College of Engineering & Technology (SVPCET)
+   Modern Institutional Design System & Styles
+   ========================================================================== */
+
+:root {
+  --pallotti-cyan: #0087a2;
+  --pallotti-cyan-dark: #006b81;
+  --pallotti-cyan-light: #e0f4f8;
+  --pallotti-navy: #0b2545;
+  --pallotti-navy-dark: #07192f;
+  --pallotti-emerald: #059669;
+  --pallotti-gold: #d97706;
+  --pallotti-gold-light: #fef3c7;
+  --slate-900: #0f172a;
+  --slate-700: #334155;
+  --slate-500: #64748b;
+  --slate-200: #e2e8f0;
+  --slate-50: #f8fafc;
+}
+
+/* Base resets & typography */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  color: var(--slate-900);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Focus styles for WCAG 2.1 AA Compliance */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid var(--pallotti-cyan);
+  outline-offset: 2px;
+}
+
+/* Glassmorphism Navigation */
+.header-sticky {
+  transition: all 0.25s ease-in-out;
+}
+.header-sticky.scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08);
+}
+
+/* Mega Menu Dropdown Architecture */
+.mega-menu-container {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mega-menu-trigger:hover .mega-menu-container,
+.mega-menu-trigger:focus-within .mega-menu-container,
+.mega-menu-container:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Link underline animations */
+.nav-link-hover {
+  position: relative;
+}
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--pallotti-cyan);
+  transition: width 0.25s ease;
+}
+.nav-link-hover:hover::after,
+.nav-link-hover:focus-visible::after {
+  width: 100%;
+}
+
+/* Infinite Recruiter Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Card Hover Micro-Interactions */
+.hover-lift {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(11, 37, 69, 0.12);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Search Modal backdrop */
+.modal-backdrop {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+}

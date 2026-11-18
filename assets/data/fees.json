@@ -1,0 +1,126 @@
+{
+  "currency": "INR",
+  "academic_year": "2026-2027",
+  "programs": {
+    "btech": {
+      "title": "B.Tech (First Year & Direct Second Year)",
+      "dte_code": "4174",
+      "eligibility": "Passed 10+2 with Physics, Mathematics & Chemistry/CS with min 45% (40% for reserved categories in Maharashtra) + Valid MHT-CET / JEE Main score.",
+      "cap_authority": "State Common Entrance Test Cell (CET Cell), Maharashtra",
+      "categories": {
+        "OPEN_MSB": {
+          "label": "Open / General (Maharashtra State Board)",
+          "tuition_fee": 110000,
+          "development_fee": 15000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 130000
+        },
+        "OPEN_OMB": {
+          "label": "Open / All India (Other than MSB - CBSE/ICSE/OMS)",
+          "tuition_fee": 110000,
+          "development_fee": 15000,
+          "caution_money": 2000,
+          "other_fees": 3500,
+          "total": 130500
+        },
+        "OBC_EBC": {
+          "label": "OBC / EBC / EWS (50% Tuition Fee Concession)",
+          "tuition_fee": 55000,
+          "development_fee": 15000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 75000
+        },
+        "SC_ST": {
+          "label": "SC / ST Category (100% Tuition & Dev Fee Waiver by Govt)",
+          "tuition_fee": 0,
+          "development_fee": 0,
+          "caution_money": 2000,
+          "other_fees": 1500,
+          "total": 3500
+        },
+        "VJ_NT_SBC_TFWS": {
+          "label": "VJ / NT / SBC / TFWS (Tuition Fee Waiver Scheme)",
+          "tuition_fee": 0,
+          "development_fee": 15000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 20000
+        }
+      }
+    },
+    "mtech": {
+      "title": "M.Tech (Autonomous)",
+      "dte_code": "4174",
+      "eligibility": "B.E. / B.Tech degree with minimum 50% marks (45% for reserved category) + Valid GATE score.",
+      "cap_authority": "DTE / CET Cell Maharashtra",
+      "categories": {
+        "OPEN_MSB": {
+          "label": "Open / General Category",
+          "tuition_fee": 75000,
+          "development_fee": 10000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 90000
+        },
+        "SPONSORED": {
+          "label": "Industry Sponsored Candidates",
+          "tuition_fee": 85000,
+          "development_fee": 10000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 100000
+        }
+      }
+    },
+    "mca": {
+      "title": "Master of Computer Applications (MCA)",
+      "dte_code": "4174",
+      "eligibility": "BCA / B.Sc (CS/IT) / B.Com / BA with Mathematics at 10+2 level or Graduation + Valid MAH-MCA-CET score.",
+      "cap_authority": "CET Cell Maharashtra",
+      "categories": {
+        "OPEN": {
+          "label": "Open Category",
+          "tuition_fee": 70000,
+          "development_fee": 10000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 85000
+        },
+        "RESERVED": {
+          "label": "OBC / EWS / SC / ST (As per Govt Norms)",
+          "tuition_fee": 35000,
+          "development_fee": 10000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 50000
+        }
+      }
+    },
+    "mba": {
+      "title": "Master of Business Administration (MBA)",
+      "dte_code": "4174",
+      "eligibility": "Bachelor degree of minimum 3 years with 50% (45% for reserved) + MAH-MBA-CET / CAT / CMAT score.",
+      "cap_authority": "CET Cell Maharashtra",
+      "categories": {
+        "OPEN": {
+          "label": "Open Category",
+          "tuition_fee": 80000,
+          "development_fee": 10000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 95000
+        },
+        "RESERVED": {
+          "label": "OBC / EWS / SC / ST (As per Govt Norms)",
+          "tuition_fee": 40000,
+          "development_fee": 10000,
+          "caution_money": 2000,
+          "other_fees": 3000,
+          "total": 55000
+        }
+      }
+    }
+  }
+}

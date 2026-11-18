@@ -1,0 +1,18 @@
+# Cache & temporary crawl data
+cache/
+__pycache__/
+*.pyc
+
+# Local scripts
+crawler.py
+inspect_homepage.py
+nav_tree.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/

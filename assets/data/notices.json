@@ -1,0 +1,92 @@
+{
+  "exam_notices": [
+    {
+      "id": 1,
+      "date": "16 Nov 2026",
+      "badge": "Results",
+      "title": "Results Declaration & Revaluation Form Filling for All Semester B.Tech (Winter 2026)",
+      "pdf_url": "https://stvincentngp.edu.in/documents/examcells/results_declaration_&_revaluation_form_filling_for_all_semester_btech_1792576018.pdf",
+      "category": "Exam Cell",
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "date": "12 Nov 2026",
+      "badge": "Time Table",
+      "title": "End Semester Regular Examination Time Table: B.Tech 4th & 6th Semesters",
+      "pdf_url": "https://stvincentngp.edu.in/documents/examcells/b.tech._4th_sem_s26_end_sem_regular_exam_1775888379.pdf",
+      "category": "Exam Cell",
+      "isNew": true
+    },
+    {
+      "id": 3,
+      "date": "08 Nov 2026",
+      "badge": "Circular",
+      "title": "Answerbook Inspection & Verification for Winter 2026 Examinations at Respective Departments",
+      "pdf_url": "https://stvincentngp.edu.in/documents/examcells/_answerbook_showing_for_the_winter_2026_exam_at_the_department_1791530085.pdf",
+      "category": "Exam Cell",
+      "isNew": false
+    },
+    {
+      "id": 4,
+      "date": "01 Nov 2026",
+      "badge": "Time Table",
+      "title": "M.Tech CAD/CAM & CSE Backlog Examination Time Table Schedule (Autonomy Scheme)",
+      "pdf_url": "https://stvincentngp.edu.in/documents/examcells/m.tech.__cse,cad_cam_1st,sem_backlog_time_table_w_26_1786506675.pdf",
+      "category": "Exam Cell",
+      "isNew": false
+    }
+  ],
+  "campus_events": [
+    {
+      "id": 101,
+      "title": "SPARK 2026 - Annual Student Performance & Recognition Konclave",
+      "date": "29 Nov 2026",
+      "department": "Computer Science & Engineering",
+      "venue": "St. Vincent Pallotti Auditorium",
+      "description": "Felicitation ceremony recognizing student achievements across academic innovation, technical leadership, and sports.",
+      "image": "assets/img/campus-life.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Sankalp Bharat: National-Level AI & Smart Hardware Hackathon",
+      "date": "05 Dec 2026",
+      "department": "IEDC & Robotics Lab",
+      "venue": "Texcelrators Innovation Arena",
+      "description": "36-hour continuous hackathon bringing 500+ developers to build solutions for agriculture, healthcare, and defence.",
+      "image": "assets/img/lab-drone.jpg"
+    },
+    {
+      "id": 103,
+      "title": "Masterclass: Deploying Generative AI & Large Language Models in Production",
+      "date": "14 Dec 2026",
+      "department": "Information Technology & AI",
+      "venue": "Seminar Hall 2",
+      "description": "Industry workshop led by principal AI engineers on retrieval-augmented generation and edge inference.",
+      "image": "assets/img/campus-hero.jpg"
+    }
+  ],
+  "academic_circulars": [
+    {
+      "id": 201,
+      "date": "15 Nov 2026",
+      "title": "Academic Calendar Revision for Even Semester (Session 2026-27)",
+      "pdf_url": "#",
+      "badge": "Academic Cell"
+    },
+    {
+      "id": 202,
+      "date": "10 Nov 2026",
+      "title": "AICTE Pragati & Saksham Scholarship Application Submission Deadline Extension",
+      "pdf_url": "#",
+      "badge": "Scholarship"
+    },
+    {
+      "id": 203,
+      "date": "04 Nov 2026",
+      "title": "Mandatory Group Medical Insurance Enrollment Notice for 2026-2027",
+      "pdf_url": "#",
+      "badge": "Student Welfare"
+    }
+  ]
+}
