@@ -192,3 +192,19 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   0% { transform: translateY(0px); }
   100% { transform: translateY(-5px); }
 }
+
+/* Mobile & Touch Responsiveness Enhancements */
+@media (max-width: 640px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+.overflow-x-auto, .overflow-y-auto, .horizontal-scroll-nav {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure images never exceed parent container */
+img, svg, video, canvas {
+  max-width: 100%;
+}

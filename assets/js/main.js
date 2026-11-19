@@ -163,6 +163,15 @@ function initMobileDrawer() {
   closeBtn?.addEventListener('click', () => toggle(false));
   backdrop?.addEventListener('click', () => toggle(false));
 
+  // Auto-close drawer on link navigation
+  drawer.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => toggle(false));
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') toggle(false);
+  });
+
   document.querySelectorAll('.mobile-acc-trigger').forEach(trigger => {
     trigger.addEventListener('click', () => {
       const targetId = trigger.getAttribute('data-target');

@@ -47,7 +47,7 @@
 <body class="bg-[#fafbfc] text-slate-800 font-body antialiased selection:bg-brand-500 selection:text-white">
 
   <!-- Top Utility Bar (Panoramic & Clean) -->
-  <div class="bg-navy-950 text-slate-300 text-sm py-2.5 px-6 border-b border-navy-800 hidden md:block">
+  <div class="bg-navy-950 text-slate-300 text-xs sm:text-sm py-2 sm:py-2.5 px-4 sm:px-6 border-b border-navy-800 hidden md:block">
     <div class="max-w-[1720px] mx-auto flex items-center justify-between">
       <div class="flex items-center space-x-6">
         <a href="../index.html" class="text-brand-300 hover:text-white flex items-center font-bold font-display">&larr; Back to Main SVPCET Portal</a>
@@ -65,26 +65,30 @@
   </div>
 
   <!-- Header -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-40">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 h-24 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-4">
-        <img src="../assets/img/logo.png" alt="SVPCET" class="h-14 w-auto">
-        <div class="border-l-2 border-slate-200 pl-4">
-          <span class="text-xs uppercase font-extrabold text-brand-600 tracking-widest font-display">Department of</span>
-          <h1 class="text-xl sm:text-2xl font-black text-navy-950 leading-tight font-display">CSE (Cyber Security)</h1>
+  <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-0 z-40">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14 py-3 sm:py-4 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5 sm:space-x-4 shrink-0">
+        <img src="../assets/img/logo.png" alt="SVPCET Emblem" class="h-10 sm:h-14 w-auto object-contain">
+        <div class="border-l-2 border-slate-200 pl-2.5 sm:pl-4">
+          <span class="text-[9px] sm:text-xs uppercase font-extrabold text-brand-600 tracking-widest font-display block">Department of</span>
+          <h1 class="text-sm sm:text-xl lg:text-2xl font-black text-navy-950 leading-tight font-display max-w-[200px] sm:max-w-none truncate sm:whitespace-normal">CSE (Cyber Security)</h1>
         </div>
       </a>
-      <div class="flex items-center space-x-4 font-display">
-        <a href="../index.html#admissions" class="px-6 py-3 rounded-xl text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 transition shadow-lg shadow-brand-600/25">
-          Apply for Admissions (2026-27)
+      <div class="flex items-center space-x-2 sm:space-x-4 font-display shrink-0">
+        <a href="../index.html" class="hidden sm:inline-flex items-center px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition">
+          &larr; Home
+        </a>
+        <a href="../index.html#admissions" class="px-3.5 sm:px-6 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 transition shadow-md shadow-brand-600/25 whitespace-nowrap">
+          <span class="hidden sm:inline">Apply 2026-27</span>
+          <span class="sm:hidden">Apply</span>
         </a>
       </div>
     </div>
   </header>
 
   <!-- Breadcrumbs -->
-  <div class="bg-slate-100/80 border-b border-slate-200 py-3">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 text-sm text-slate-500 flex items-center space-x-3 font-medium">
+  <div class="bg-slate-100/80 border-b border-slate-200 py-2 sm:py-2.5 px-4 sm:px-8 lg:px-14">
+    <div class="max-w-[1720px] mx-auto text-xs sm:text-sm text-slate-500 flex items-center space-x-2 sm:space-x-3 font-medium overflow-x-auto whitespace-nowrap scrollbar-none">
       <a href="../index.html" class="hover:text-brand-600">Home</a>
       <span>/</span>
       <a href="../index.html#departments" class="hover:text-brand-600">Academics</a>
@@ -94,41 +98,41 @@
   </div>
 
   <!-- Department Hero Banner (Panoramic & Spacious) -->
-  <section class="bg-navy-950 text-white py-20 lg:py-28 relative overflow-hidden">
+  <section class="bg-navy-950 text-white py-12 sm:py-20 lg:py-28 relative overflow-hidden">
     <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#11abc9_1px,transparent_1px)] [background-size:28px_28px]"></div>
 
-    <div class="relative max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <div class="lg:col-span-8 space-y-6">
-          <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold bg-brand-500/20 text-brand-300 border border-brand-500/30 font-display">
+    <div class="relative max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div class="lg:col-span-8 space-y-4 sm:space-y-6">
+          <div class="inline-flex items-center space-x-2 px-3.5 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold bg-brand-500/20 text-brand-300 border border-brand-500/30 font-display">
             <span>Autonomous Curriculum | AICTE Approved (Autonomous)</span>
           </div>
-          <h2 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-tight font-display">
+          <h2 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight font-display break-words">
             Defending Digital Frontiers with Ethical Hacking & Forensics
           </h2>
-          <p class="text-slate-300 text-base sm:text-xl max-w-3xl leading-relaxed font-body">
+          <p class="text-slate-300 text-sm sm:text-lg lg:text-xl max-w-3xl leading-relaxed font-body">
             With digital infrastructure facing sophisticated cyber threats globally, the Department of CSE (Cyber Security) provides mission-critical training in penetration testing, threat hunting, secure software engineering, cryptography, and digital forensics. Students learn in an isolated, sandboxed cyber range.
           </p>
-          <div class="flex flex-wrap gap-5 pt-3 font-display">
-            <div class="bg-white/10 px-5 py-3 rounded-2xl border border-white/15">
+          <div class="flex flex-wrap gap-2.5 sm:gap-4 pt-2 sm:pt-3 font-display">
+            <div class="bg-white/10 px-4 sm:px-5 py-2.5 sm:py-3 rounded-2xl border border-white/15">
               <span class="text-xs text-slate-400 block font-body">Sanctioned Intake:</span>
-              <strong class="text-white text-base sm:text-lg">60 B.Tech Seats</strong>
+              <strong class="text-white text-sm sm:text-lg">60 B.Tech Seats</strong>
             </div>
-            <div class="bg-white/10 px-5 py-3 rounded-2xl border border-white/15">
+            <div class="bg-white/10 px-4 sm:px-5 py-2.5 sm:py-3 rounded-2xl border border-white/15">
               <span class="text-xs text-slate-400 block font-body">Head of Department:</span>
-              <strong class="text-white text-base sm:text-lg">Dr. Abhishek D. Pathak</strong>
+              <strong class="text-white text-sm sm:text-lg">Dr. Abhishek D. Pathak</strong>
             </div>
-            <div class="bg-white/10 px-5 py-3 rounded-2xl border border-white/15">
+            <div class="bg-white/10 px-4 sm:px-5 py-2.5 sm:py-3 rounded-2xl border border-white/15">
               <span class="text-xs text-slate-400 block font-body">Placement Track:</span>
-              <strong class="text-emerald-400 text-base sm:text-lg">91% Placement Rate</strong>
+              <strong class="text-emerald-400 text-sm sm:text-lg">91% Placement Rate</strong>
             </div>
           </div>
         </div>
 
         <div class="lg:col-span-4">
-          <div class="bg-white/10 backdrop-blur-2xl p-8 rounded-3xl border border-white/20 space-y-5">
-            <h3 class="text-base font-extrabold uppercase tracking-widest text-brand-300 font-display">Quick Navigation</h3>
-            <ul class="space-y-3.5 text-sm text-slate-200 font-body">
+          <div class="bg-white/10 backdrop-blur-2xl p-6 sm:p-8 rounded-3xl border border-white/20 space-y-4 sm:space-y-5">
+            <h3 class="text-sm sm:text-base font-extrabold uppercase tracking-widest text-brand-300 font-display">Quick Navigation</h3>
+            <ul class="space-y-2.5 sm:space-y-3.5 text-xs sm:text-sm text-slate-200 font-body">
               <li><a href="#overview" class="hover:text-white flex items-center">&rarr; About &amp; Vision-Mission</a></li>
               <li><a href="#faculty" class="hover:text-white flex items-center">&rarr; Faculty Directory (8 Educators)</a></li>
               <li><a href="#syllabus" class="hover:text-white flex items-center">&rarr; Autonomous Syllabus (Schemes 1-8)</a></li>
@@ -142,33 +146,33 @@
   </section>
 
   <!-- Department Navigation Tabs -->
-  <section class="sticky top-24 z-30 bg-white border-b border-slate-200 shadow-sm font-display">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 relative flex items-center">
-      <nav class="flex space-x-10 overflow-x-auto text-sm sm:text-base font-bold py-4 scrollbar-none horizontal-scroll-nav w-full" aria-label="Department Tabs">
-        <a href="#overview" class="text-brand-600 border-b-2 border-brand-600 pb-4 -mb-4 shrink-0 font-extrabold">Overview &amp; Vision</a>
-        <a href="#faculty" class="text-slate-600 hover:text-brand-600 pb-4 -mb-4 shrink-0">Faculty Directory</a>
-        <a href="#syllabus" class="text-slate-600 hover:text-brand-600 pb-4 -mb-4 shrink-0">Autonomous Syllabus</a>
-        <a href="#laboratories" class="text-slate-600 hover:text-brand-600 pb-4 -mb-4 shrink-0">Laboratories &amp; Facilities</a>
-        <a href="#placements" class="text-slate-600 hover:text-brand-600 pb-4 -mb-4 shrink-0">Placements &amp; Recruiters</a>
+  <section class="sticky top-[58px] sm:top-[74px] z-30 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm font-display">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14 relative flex items-center overflow-x-auto scrollbar-none">
+      <nav class="flex space-x-6 sm:space-x-10 text-xs sm:text-sm md:text-base font-bold py-3.5 sm:py-4 whitespace-nowrap shrink-0 horizontal-scroll-nav w-full" aria-label="Department Tabs">
+        <a href="#overview" class="text-brand-600 border-b-2 border-brand-600 pb-3.5 sm:pb-4 -mb-3.5 sm:-mb-4 shrink-0 font-extrabold">Overview &amp; Vision</a>
+        <a href="#faculty" class="text-slate-600 hover:text-brand-600 pb-3.5 sm:pb-4 -mb-3.5 sm:-mb-4 shrink-0">Faculty Directory</a>
+        <a href="#syllabus" class="text-slate-600 hover:text-brand-600 pb-3.5 sm:pb-4 -mb-3.5 sm:-mb-4 shrink-0">Autonomous Syllabus</a>
+        <a href="#laboratories" class="text-slate-600 hover:text-brand-600 pb-3.5 sm:pb-4 -mb-3.5 sm:-mb-4 shrink-0">Laboratories &amp; Facilities</a>
+        <a href="#placements" class="text-slate-600 hover:text-brand-600 pb-3.5 sm:pb-4 -mb-3.5 sm:-mb-4 shrink-0">Placements &amp; Recruiters</a>
       </nav>
     </div>
   </section>
 
   <!-- Section 1: Overview, Vision & Mission -->
-  <section id="overview" class="py-20 bg-white">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+  <section id="overview" class="py-12 sm:py-16 lg:py-20 bg-white">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
         
-        <div class="lg:col-span-2 space-y-8">
+        <div class="lg:col-span-2 space-y-6 sm:space-y-8">
           <div>
-            <h3 class="text-3xl font-extrabold text-navy-950 mb-4 font-display">About the Department</h3>
-            <p class="text-base sm:text-lg text-slate-600 leading-relaxed font-body">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-navy-950 mb-3 sm:mb-4 font-display">About the Department</h3>
+            <p class="text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed font-body">
               With digital infrastructure facing sophisticated cyber threats globally, the Department of CSE (Cyber Security) provides mission-critical training in penetration testing, threat hunting, secure software engineering, cryptography, and digital forensics. Students learn in an isolated, sandboxed cyber range.
             </p>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="p-8 rounded-3xl bg-slate-50 border border-slate-200">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            <div class="p-6 sm:p-8 rounded-3xl bg-slate-50 border border-slate-200">
               <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center font-black text-xl mb-4 font-display">V</div>
               <h4 class="text-xl font-bold text-navy-950 mb-3 font-display">Vision</h4>
               <p class="text-sm sm:text-base text-slate-600 leading-relaxed font-body">
@@ -176,7 +180,7 @@
               </p>
             </div>
 
-            <div class="p-8 rounded-3xl bg-slate-50 border border-slate-200">
+            <div class="p-6 sm:p-8 rounded-3xl bg-slate-50 border border-slate-200">
               <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-black text-xl mb-4 font-display">M</div>
               <h4 class="text-xl font-bold text-navy-950 mb-3 font-display">Mission</h4>
               <ul class="text-sm sm:text-base text-slate-600 leading-relaxed font-body space-y-2">
@@ -186,24 +190,24 @@
           </div>
         </div>
 
-        <div class="bg-brand-50 rounded-3xl p-8 border border-brand-100 flex flex-col justify-between">
+        <div class="bg-brand-50 rounded-3xl p-6 sm:p-8 border border-brand-100 flex flex-col justify-between">
           <div>
-            <div class="flex items-center space-x-5 mb-5">
+            <div class="flex items-center space-x-4 sm:space-x-5 mb-5">
               <div class="relative shrink-0">
                 <img src="https://stvincentngp.edu.in//img/faculty/abhishek_1739331729.jpg" alt="Dr. Abhishek D. Pathak" class="w-20 h-20 rounded-2xl object-cover border-2 border-brand-600" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                 <div class="w-20 h-20 rounded-2xl bg-brand-200 border-2 border-brand-600 flex items-center justify-center text-brand-900 font-black text-2xl font-display shrink-0" style='display:none;'>AP</div>
               </div>
               <div>
-                <h4 class="text-lg font-bold text-navy-950 font-display">Dr. Abhishek D. Pathak</h4>
-                <p class="text-sm text-brand-700 font-extrabold font-display">Associate Professor, Head of Department</p>
+                <h4 class="text-base sm:text-lg font-bold text-navy-950 font-display">Dr. Abhishek D. Pathak</h4>
+                <p class="text-xs sm:text-sm text-brand-700 font-extrabold font-display">Associate Professor, Head of Department</p>
                 <p class="text-xs text-slate-500 font-medium">M.Tech, Ph.D.</p>
               </div>
             </div>
-            <p class="text-sm text-slate-600 leading-relaxed italic font-body">
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed italic font-body">
               "We prepare engineers not just with textbook theories, but through hands-on laboratory experimentation, industrial internships, and high-standard ethics to thrive in competitive global landscapes."
             </p>
           </div>
-          <div class="mt-8 pt-5 border-t border-brand-200 text-sm text-slate-500">
+          <div class="mt-6 sm:mt-8 pt-4 sm:pt-5 border-t border-brand-200 text-xs sm:text-sm text-slate-500">
             DTE Choice Code: <strong class="text-brand-900 font-display">417424410</strong>
           </div>
         </div>
@@ -213,15 +217,15 @@
   </section>
 
   <!-- Section 2: Faculty Directory -->
-  <section id="faculty" class="py-20 bg-slate-50 border-t border-slate-200">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="mb-12">
+  <section id="faculty" class="py-12 sm:py-16 lg:py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14">
+      <div class="mb-8 sm:mb-12">
         <span class="text-xs uppercase font-extrabold tracking-widest text-brand-600 font-display">Faculty Directory</span>
-        <h3 class="text-3xl sm:text-5xl font-black text-navy-950 mt-2 font-display">Distinguished Educators &amp; Researchers</h3>
-        <p class="text-base sm:text-lg text-slate-600 mt-2 font-body">Academic excellence, doctoral research, and committed mentorship at CSE (Cyber Security).</p>
+        <h3 class="text-2xl sm:text-4xl lg:text-5xl font-black text-navy-950 mt-2 font-display">Distinguished Educators &amp; Researchers</h3>
+        <p class="text-sm sm:text-base lg:text-lg text-slate-600 mt-2 font-body">Academic excellence, doctoral research, and committed mentorship at CSE (Cyber Security).</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
         
         <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-4 hover-lift">
           <div class="flex items-center space-x-4">
@@ -364,24 +368,24 @@
   </section>
 
   <!-- Section 3: Autonomous Syllabus Repository -->
-  <section id="syllabus" class="py-20 bg-white border-t border-slate-200">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="mb-10">
+  <section id="syllabus" class="py-12 sm:py-16 lg:py-20 bg-white border-t border-slate-200">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14">
+      <div class="mb-8 sm:mb-10">
         <span class="text-xs uppercase font-extrabold tracking-widest text-brand-600 font-display">Curriculum &amp; Ordinances</span>
-        <h3 class="text-3xl sm:text-5xl font-black text-navy-950 mt-2 font-display">Autonomous Syllabus Scheme (2026-27)</h3>
-        <p class="text-base sm:text-lg text-slate-600 mt-2 font-body">Curated in consultation with the Board of Studies (BOS) and academic/industry advisory councils.</p>
+        <h3 class="text-2xl sm:text-4xl lg:text-5xl font-black text-navy-950 mt-2 font-display">Autonomous Syllabus Scheme (2026-27)</h3>
+        <p class="text-sm sm:text-base lg:text-lg text-slate-600 mt-2 font-body">Curated in consultation with the Board of Studies (BOS) and academic/industry advisory councils.</p>
       </div>
 
       <div class="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
         <div class="overflow-x-auto">
-          <table class="w-full text-left text-sm font-body">
+          <table class="min-w-[640px] w-full text-left text-xs sm:text-sm font-body">
             <thead class="bg-slate-100 text-slate-700 uppercase font-bold text-xs tracking-wider border-b border-slate-200 font-display">
               <tr>
-                <th class="py-4 px-6">Semester</th>
-                <th class="py-4 px-6">Scheme Title</th>
-                <th class="py-4 px-6">Total Credits</th>
-                <th class="py-4 px-6">Key Subjects</th>
-                <th class="py-4 px-6 text-right">Syllabus PDF</th>
+                <th class="py-3.5 sm:py-4 px-4 sm:px-6">Semester</th>
+                <th class="py-3.5 sm:py-4 px-4 sm:px-6">Scheme Title</th>
+                <th class="py-3.5 sm:py-4 px-4 sm:px-6">Total Credits</th>
+                <th class="py-3.5 sm:py-4 px-4 sm:px-6">Key Subjects</th>
+                <th class="py-3.5 sm:py-4 px-4 sm:px-6 text-right">Syllabus PDF</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-200 text-slate-600">
@@ -430,15 +434,15 @@
   </section>
 
   <!-- Section 4: Laboratories & Facilities -->
-  <section id="laboratories" class="py-20 bg-slate-50 border-t border-slate-200">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="mb-12">
+  <section id="laboratories" class="py-12 sm:py-16 lg:py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14">
+      <div class="mb-8 sm:mb-12">
         <span class="text-xs uppercase font-extrabold tracking-widest text-brand-600 font-display">Practical Infrastructure</span>
-        <h3 class="text-3xl sm:text-5xl font-black text-navy-950 mt-2 font-display">Specialized Laboratories &amp; Research Centers</h3>
-        <p class="text-base sm:text-lg text-slate-600 mt-2 font-body">Hands-on experimentation with industry-grade software suites and high-precision apparatus.</p>
+        <h3 class="text-2xl sm:text-4xl lg:text-5xl font-black text-navy-950 mt-2 font-display">Specialized Laboratories &amp; Research Centers</h3>
+        <p class="text-sm sm:text-base lg:text-lg text-slate-600 mt-2 font-body">Hands-on experimentation with industry-grade software suites and high-precision apparatus.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         
         <div class="p-7 rounded-3xl bg-white border border-slate-200 shadow-sm hover-lift flex flex-col justify-between">
           <div>
@@ -529,38 +533,38 @@
   </section>
 
   <!-- Section 5: Placements & Recruiters -->
-  <section id="placements" class="py-20 bg-white border-t border-slate-200">
-    <div class="max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <div class="lg:col-span-6 space-y-6">
+  <section id="placements" class="py-12 sm:py-16 lg:py-20 bg-white border-t border-slate-200">
+    <div class="max-w-[1720px] mx-auto px-4 sm:px-8 lg:px-14">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div class="lg:col-span-6 space-y-4 sm:space-y-6">
           <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-600 font-display">Career Development Centre</span>
-          <h3 class="text-3xl sm:text-5xl font-black text-navy-950 font-display leading-tight">
+          <h3 class="text-2xl sm:text-4xl lg:text-5xl font-black text-navy-950 font-display leading-tight">
             High-Impact Career Outcomes &amp; Corporate Conversion
           </h3>
-          <p class="text-base sm:text-lg text-slate-600 leading-relaxed font-body">
+          <p class="text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed font-body">
             Graduates from the Department of CSE (Cyber Security) are consistently recruited by tier-1 MNCs, specialized engineering firms, and core industry leaders.
           </p>
           <div class="flex items-center space-x-6 pt-2 font-display">
             <div>
-              <span class="text-3xl font-black text-navy-950 block">91% Placement Rate</span>
+              <span class="text-2xl sm:text-3xl font-black text-navy-950 block">91% Placement Rate</span>
               <span class="text-xs text-slate-500 font-body">Placement &amp; Higher Studies</span>
             </div>
             <div class="h-10 w-px bg-slate-200"></div>
             <div>
-              <span class="text-3xl font-black text-brand-600 block">6-Month</span>
+              <span class="text-2xl sm:text-3xl font-black text-brand-600 block">6-Month</span>
               <span class="text-xs text-slate-500 font-body">Dedicated Industry Internship Track</span>
             </div>
           </div>
         </div>
 
-        <div class="lg:col-span-6 bg-slate-50 p-8 rounded-3xl border border-slate-200 space-y-6">
-          <h4 class="text-base font-bold uppercase tracking-wider text-slate-700 font-display">Prominent Hiring Partners</h4>
-          <div class="flex flex-wrap gap-3">
+        <div class="lg:col-span-6 bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 space-y-5 sm:space-y-6">
+          <h4 class="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-700 font-display">Prominent Hiring Partners</h4>
+          <div class="flex flex-wrap gap-2.5 sm:gap-3">
             <span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">PwC Cyber</span><span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">Deloitte Risk & Advisory</span><span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">EY Security Practice</span><span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">TCS Cyber Defense</span><span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">Quick Heal</span><span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">Paladion</span><span class="px-4 py-2 bg-slate-100 text-navy-950 font-bold rounded-xl text-sm border border-slate-200 font-display">Infosys</span>
           </div>
-          <div class="pt-4 border-t border-slate-200 flex items-center justify-between">
+          <div class="pt-4 border-t border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <span class="text-xs text-slate-500 font-medium">Placement Assistance via CDC</span>
-            <a href="../index.html#corporate" class="text-sm font-bold text-brand-700 hover:text-brand-900 font-display">View Central Placement Portal &rarr;</a>
+            <a href="../index.html#corporate" class="text-xs sm:text-sm font-bold text-brand-700 hover:text-brand-900 font-display">View Central Placement Portal &rarr;</a>
           </div>
         </div>
       </div>
@@ -568,9 +572,9 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-navy-950 text-slate-400 py-12 text-sm border-t border-navy-800 text-center font-body">
+  <footer class="bg-navy-950 text-slate-400 py-8 sm:py-12 px-4 sm:px-8 text-xs sm:text-sm border-t border-navy-800 text-center font-body">
     <p>&copy; 2026 Department of CSE (Cyber Security) | St. Vincent Pallotti College of Engineering &amp; Technology, Nagpur</p>
-    <div class="mt-4 space-x-6 font-display font-medium">
+    <div class="mt-4 flex flex-wrap justify-center gap-4 sm:gap-6 font-display font-medium">
       <a href="../index.html" class="hover:text-white">Main Portal</a>
       <a href="../index.html#admissions" class="hover:text-white">Admissions</a>
       <a href="../index.html#notices" class="hover:text-white">Exam Cell</a>
