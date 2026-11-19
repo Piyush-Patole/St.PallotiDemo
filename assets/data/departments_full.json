@@ -1,0 +1,2061 @@
+[
+  {
+    "pid": 1,
+    "slug": "computer-science-and-engineering",
+    "name": "Computer Science & Engineering",
+    "degree": "B.Tech & M.Tech",
+    "intake": "180 B.Tech + 18 M.Tech",
+    "dte_code": "417424210",
+    "nba_status": "NBA Tier-I Accredited",
+    "vision": "To develop globally competent computing community with the ability to make constructive contributions to society.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Manoj V. Bramhe",
+      "designation": "Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/manoj_1739333214.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Manoj V. Bramhe",
+        "designation": "Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/manoj_1739333214.jpg"
+      },
+      {
+        "name": "Dr. Sunil M. Wanjari",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sunil_1739331683.jpg"
+      },
+      {
+        "name": "Dr. Kapil O. Gupta",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kapil_1739355780.jpeg"
+      },
+      {
+        "name": "Dr. Komal K. Gehani",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/komal_1739331702.jpg"
+      },
+      {
+        "name": "Dr. Pallavi M. Wankhede",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pallavi_1739331711.jpg"
+      },
+      {
+        "name": "Mr. Vaibhav V. Deshpande",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vaibhav_1739331742.jpg"
+      },
+      {
+        "name": "Dr. Yogesh G. Golhar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/yogesh_1739333698.jpg"
+      },
+      {
+        "name": "Dr. Roshan R. Kotkondawar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/roshan_1739333703.jpg"
+      },
+      {
+        "name": "Mr. Dhirajkumar R. Gupta",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/dhirajkumar_1739333932.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Priti V. Bhagat",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/priti_1739334113.jpg"
+      },
+      {
+        "name": "Mr. Nilesh S. Korde",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/nilesh_1739334104.jpg"
+      },
+      {
+        "name": "Ms. Sandhya N. Dhage",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sandhya_1739334098.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/CSE_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/CSE_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/CSE_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/CSE_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/CSE_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/CSE_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/CSE_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/CSE_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 Acquire skills, knowledge necessary to work efficiently in the global computing industry or academy using cutting edge technology in the diverse professional environment to solve complex engineering problems.",
+      "PEO2 Apply computer engineering principles combined with critical thinking and problem solving skills to design and implement sustainable solutions for real world challenges while embracing continuous learning and technological advancements.",
+      "PEO3 Demonstrate strong ethical values, social responsibility and effective communication in both individual and collaborative work environment ensuring the positive societal impact and uphold professional integrity in diverse global context."
+    ],
+    "psos": [
+      "PSO1 Analyze, design and develop computer based systems with fundamental knowledge of mathematics, algorithms, networking, web design and software management.",
+      "PSO2 Deal the problems with varying complexity and provide solutions by applying knowledge of Data structures, Database systems, Theory of computation, Computer Architecture, Soft computing & Front end development.",
+      "PSO3 Model and propose software solutions for industrial & social needs with the exposure of IoT, Data science, Machine Learning & Cyber security."
+    ],
+    "tagline": "Engineering the Intelligent Software Era",
+    "overview": "Established in 2004, the Department of Computer Science & Engineering has evolved into a premier center of computing education in central India. Accredited by the National Board of Accreditation (NBA), the department provides state-of-the-art computing facilities, Gigabit fiber connectivity, and a curriculum tuned to global software demands.",
+    "placement_rate": "92% Campus Conversion",
+    "top_recruiters": [
+      "TCS Digital",
+      "Persistent Systems",
+      "Infosys",
+      "Cognizant",
+      "Capgemini",
+      "Amazon",
+      "Cisco"
+    ],
+    "labs": [
+      {
+        "name": "AI & Deep Learning Computing Lab",
+        "focus": "NVIDIA GPU workstations, PyTorch, TensorFlow, Computer Vision research"
+      },
+      {
+        "name": "Cloud Computing & Distributed Systems Lab",
+        "focus": "AWS/Azure Cloud instances, Kubernetes, Docker, Microservices"
+      },
+      {
+        "name": "Cyber Defense & Ethical Hacking Arena",
+        "focus": "Kali Linux, Wireshark, Metasploit, Network Defense firewalls"
+      },
+      {
+        "name": "Full Stack Software Development Studio",
+        "focus": "React, Node.js, Spring Boot, PostgreSQL, MongoDB, Git workflows"
+      },
+      {
+        "name": "Advanced Data Structures & Algorithms Lab",
+        "focus": "High-efficiency competitive programming, C++, Java, Python"
+      },
+      {
+        "name": "Database & Big Data Engineering Lab",
+        "focus": "Oracle 19c, Apache Hadoop, Apache Spark, NoSQL architectures"
+      }
+    ]
+  },
+  {
+    "pid": 2,
+    "slug": "electronics-telecommunication",
+    "name": "Electronics & Telecommunication",
+    "degree": "B.Tech",
+    "intake": "120 B.Tech Seats",
+    "dte_code": "417437210",
+    "nba_status": "NBA Tier-I Accredited",
+    "vision": "To develop disciplined & ethically strong Electronics & Telecommunication engineers having multidisciplinary knowledge with entrepreneurship & leadership skills to serve the society.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Harish V. Rajurkar",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/ harish_1739332171.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Harish V. Rajurkar",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ harish_1739332171.jpg"
+      },
+      {
+        "name": "Dr. Ashutosh S. Werulkar",
+        "designation": "Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ashutosh_1739332030.jpg"
+      },
+      {
+        "name": "Dr. Manish N. Kapse",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/manish_1739332205.jpg"
+      },
+      {
+        "name": "Mr. Ravindra D. Deshmukh",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ravindra_1739332276.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Kirti S. Vaidya",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kirti_1739332150.jpg"
+      },
+      {
+        "name": "Dr. Avinash B. Lambat",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/avinash_1739332118.jpg"
+      },
+      {
+        "name": "Ms. Mrunalini U. Buradkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/mrunalini_1739332188.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Deepali K. Borakhade",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/deepali_1739332164.jpg"
+      },
+      {
+        "name": "Mrs. Dakshada S. Gharode",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/dakshada_1739332286.jpg"
+      },
+      {
+        "name": "Mrs. Nishat A. Faizee",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/nishat_1739332296.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Madhura A. Kulkarni",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/madhura_1739332354.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Hema R. Kale",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/hema _1633585115.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/ETC_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/ETC_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/ETC_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/ETC_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/ETC_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/ETC_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/ETC_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/ETC_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 : To produce graduates with sound theoretical & practical knowledge by applying basic principles of mathematics, sciences & engineering with modern tools and techniques.",
+      "PEO2 : To produce technically competent graduates with ability to analyze, design, develop, test, optimize and integrate systems through experimentation for real life problems.",
+      "PEO3 : To inculcate in graduates the professional & ethical attitude, leadership skill, multidisciplinary approach & ability to apply engineering concepts in the social and environmental context.",
+      "PEO4 : To motivate & prepare graduates to pursue higher education and research & continuous professional development."
+    ],
+    "psos": [
+      "PSO1 : Apply the core knowledge for the analysis and design of components in Signal Processing, VLSI, Embedded Systems, Communication, Information Technology and Automation.",
+      "PSO2 : Adapt Innovation, Creativity and design to develop products which meet the industrial and societal needs."
+    ],
+    "tagline": "Connecting the World through 5G, VLSI & Embedded Systems",
+    "overview": "The Department of Electronics and Telecommunication Engineering offers cutting-edge education in semiconductor design, wireless communication, and embedded intelligence. Boasting NBA accreditation, modern labs, and high-frequency RF equipment, the department prepares engineers for top core telecom and semiconductor companies.",
+    "placement_rate": "89% Placement Record",
+    "top_recruiters": [
+      "Qualcomm",
+      "Texas Instruments",
+      "L&T Technology Services",
+      "Tata Elxsi",
+      "TCS",
+      "Cognizant",
+      "Ericsson"
+    ],
+    "labs": [
+      {
+        "name": "5G & Advanced Wireless Communication Lab",
+        "focus": "SDR platforms, spectrum analyzers, digital modulation kits, RF transmitters"
+      },
+      {
+        "name": "VLSI Design & Embedded Systems Lab",
+        "focus": "Cadence EDA Suite, Xilinx Vivado, FPGA development boards (Spartan/Zynq)"
+      },
+      {
+        "name": "Digital Signal & Image Processing Lab",
+        "focus": "MATLAB, DSP Starter Kits (TMS320C6713), Computer Vision cameras"
+      },
+      {
+        "name": "IoT & Smart Hardware Prototyping Lab",
+        "focus": "ARM Cortex-M4, ESP32, NodeMCU, ZigBee sensor networks"
+      },
+      {
+        "name": "Optical Fiber & Microwave Engineering Lab",
+        "focus": "Optical time-domain reflectometers (OTDR), microwave test benches, waveguides"
+      },
+      {
+        "name": "PCB Design & Fabrication Facility",
+        "focus": "Eagle CAD, automated chemical etching machines, surface mount soldering"
+      }
+    ]
+  },
+  {
+    "pid": 3,
+    "slug": "civil-engineering",
+    "name": "Civil Engineering",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417419110",
+    "nba_status": "NBA Tier-I Accredited",
+    "vision": "To develop disciplined Civil Engineers & Administrators meeting changing technological needs and providing solutions through professional engineering practice with relevant social concerns.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Abhay G. Hirekhan",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/abhay_1739331980.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Abhay G. Hirekhan",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/abhay_1739331980.jpg"
+      },
+      {
+        "name": "Dr. Chetan S. Deshpande",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/chetan_1739331837.jpg"
+      },
+      {
+        "name": "Dr. Satish D. Kene",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/satish_1739331898.jpg"
+      },
+      {
+        "name": "Mr. Ram P. Kinhikar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ram_1783074527.jpg"
+      },
+      {
+        "name": "Mr. Sujin S. George",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sujin_1739331963.jpg"
+      },
+      {
+        "name": "Mr. Yogesh S. Lanjewar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/yogesh _1739332013.jpg"
+      },
+      {
+        "name": "Dr. Suyog U. Dhote",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/suyog_1739333778.jpg"
+      },
+      {
+        "name": "Mr. Akash A. Kaley",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/akash_1739333835.jpg"
+      },
+      {
+        "name": "Mrs. Kusum S. Balani",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/bhagyashree_1739334160.jpg"
+      },
+      {
+        "name": "Mr. Rohit N. Bhosle",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/rohit_1739335761.jpeg"
+      },
+      {
+        "name": "Mrs. Yashshree Dhale",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/yashshree_1783332598.jpg"
+      },
+      {
+        "name": "Dr. Monika Jain",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/monika_1791529404.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/CV_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/CV_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/CV_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/CV_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/CV_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/CV_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/CV_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/CV_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 Plan, analyse, design, execute and maintain Civil Engineering structures using fundamentals of Mathematics and principles in Engineering subjects, with sustainable approach.",
+      "PEO2 Handle new construction materials, tools and software in Civil Engineering oriented works.",
+      "PEO3 Practice ethically in a team with effective communication skills and Life- long learning objective to broaden the knowledge."
+    ],
+    "psos": [
+      "PSO1 Achieve proficiency in Civil Engineering fields providing state of art solution according to needs of the society through research and as per the guidelines of Indian Standard Codes.",
+      "PSO2 Manage Civil Engineering projects using latest techniques of construction management with optimization of resources and sustainable approach.",
+      "PSO3 Pursue higher education for detailed knowledge and evolve adaptability for Civil Engineering industry through continued self learning approach."
+    ],
+    "tagline": "Building Resilient, Sustainable & Smart Infrastructure",
+    "overview": "The Department of Civil Engineering trains visionary engineers capable of executing mega-structures, smart cities, and sustainable green buildings. Equipped with sophisticated testing apparatus, computerized UTM, and GIS mapping stations, the department also operates an active material testing and environmental consultancy cell.",
+    "placement_rate": "85% Placement & Higher Studies",
+    "top_recruiters": [
+      "Larsen & Toubro (L&T)",
+      "Afcons Infrastructure",
+      "Tata Consulting Engineers",
+      "Shapoorji Pallonji",
+      "Godrej Construction",
+      "UltraTech"
+    ],
+    "labs": [
+      {
+        "name": "Advanced Concrete Technology & Testing Lab",
+        "focus": "2000 kN Digital Compression Testing Machine, rebound hammers, ultrasonic pulse"
+      },
+      {
+        "name": "Geotechnical & Soil Mechanics Lab",
+        "focus": "Triaxial shear apparatus, direct shear, consolidation cells, permeameters"
+      },
+      {
+        "name": "Environmental & Water Quality Engineering Lab",
+        "focus": "Spectrophotometers, BOD incubators, COD digesters, pH/turbidity analyzers"
+      },
+      {
+        "name": "Surveying & Advanced Geomatics Lab",
+        "focus": "Total Stations (Leica/Topcon), differential GPS, digital auto-levels, ArcGIS"
+      },
+      {
+        "name": "Transportation & Highway Engineering Lab",
+        "focus": "Los Angeles abrasion machine, bitumen penetrometer, Marshall stability apparatus"
+      },
+      {
+        "name": "Computer-Aided Structural Design (CAD) Lab",
+        "focus": "AutoCAD Civil 3D, STAAD.Pro, ETABS, Bentley Systems structural modeling"
+      }
+    ]
+  },
+  {
+    "pid": 4,
+    "slug": "electrical-engineering",
+    "name": "Electrical Engineering",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417429310",
+    "nba_status": "NBA Tier-I Accredited",
+    "vision": "To develop professionally competent and socially conscious Electrical Engineers ready to face challenges in a global environment.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Mrs. Jyoti P. Rothe",
+      "designation": "Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/jyoti_1739332451.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Mrs. Jyoti P. Rothe",
+        "designation": "Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/jyoti_1739332451.jpg"
+      },
+      {
+        "name": "Dr. Nitin K. Dhote",
+        "designation": "Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/nitin_1739332463.jpg"
+      },
+      {
+        "name": "Dr. Dinesh S. Wankhede",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/dinesh_1739332473.jpg"
+      },
+      {
+        "name": "Dr. Sumant A. Sarmokadam",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sumant_1739332497.jpg"
+      },
+      {
+        "name": "Dr. Prafull M. Tarwatkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/prafull_1739332520.jpg"
+      },
+      {
+        "name": "Mr. Manoj B. Maurya",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/manoj_1739332485.jpg"
+      },
+      {
+        "name": "Mr. Nilesh P. Mendhe",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/nilesh_1739332508.jpg"
+      },
+      {
+        "name": "Dr. Dushyant C. Khadse",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/dushyant_1739332599.jpg"
+      },
+      {
+        "name": "Dr. Kushal A. Kanhav",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kushal_1739332579.jpg"
+      },
+      {
+        "name": "Mrs. Shradha V. Banode",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shradha_1739332619.jpg"
+      },
+      {
+        "name": "Dr. Pravin S. Pisal",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pravin_1739332608.jpg"
+      },
+      {
+        "name": "Dr. Sachin P. Nagmote",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sachin_1753691756.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/EE_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/EE_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/EE_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/EE_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/EE_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/EE_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/EE_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/EE_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 : Have sound knowledge acquired in science, mathematics, core electrical engineering to develop new processes and implement the solutions for industrial problems.",
+      "PEO2 : Acquire the necessary communication and leadership skills to function effectively in a multi-disciplinary environment as an employee or entrepreneur with professionalism, leadership quality, teamwork, and ethical values to meet the societal needs.",
+      "PEO3 : Create a better future by pursuing higher education / research and to create enthusiasm for lifelong learning."
+    ],
+    "psos": [
+      "PSO1 : Apply Science, Mathematics & Electrical Engineering skills for the solution of the problems in the areas of Electrical Power System and Smart Grid.",
+      "PSO2 : Develop and support systems based on Automation, Control and Instrumentation.",
+      "PSO3 : Apply knowledge of Electrical Machines, Power Electronics & Drives in design and development of Green Technology and e-Vehicles."
+    ],
+    "tagline": "Powering Clean Energy, EV Powertrains & Smart Grids",
+    "overview": "The Department of Electrical Engineering stands at the forefront of the green energy transition, electric vehicle systems, and industrial automation. With NBA accreditation and state-of-the-art power electronics setups, students gain mastery over renewable energy integration, motor drives, and microprocessor control.",
+    "placement_rate": "88% Campus Conversion",
+    "top_recruiters": [
+      "Schneider Electric",
+      "Siemens",
+      "Tata Power",
+      "L&T Electrical & Automation",
+      "Adani Power",
+      "Bajaj Auto",
+      "TCS"
+    ],
+    "labs": [
+      {
+        "name": "Electric Vehicle & Power Electronics Lab",
+        "focus": "BLDC motor test benches, regenerative braking, IGBT inverter converters"
+      },
+      {
+        "name": "Electrical Machines & Drives Testing Arena",
+        "focus": "AC/DC motor generator sets, synchronous machines, slip-ring induction setups"
+      },
+      {
+        "name": "Power Systems & Smart Grid Simulation Lab",
+        "focus": "ETAP software, PSCAD, transmission line simulators, numerical relays"
+      },
+      {
+        "name": "Control Systems & Industrial Automation Lab",
+        "focus": "Siemens S7-1200 PLCs, SCADA software, closed-loop servo control, MATLAB Simulink"
+      },
+      {
+        "name": "Renewable & Solar Energy Research Station",
+        "focus": "Rooftop 100 kW grid-tied solar setup, MPPT charge controllers, PV characterization"
+      },
+      {
+        "name": "High Voltage & Switchgear Protection Lab",
+        "focus": "High voltage AC/DC testing transformer, sphere gap assemblies, SF6 circuit breakers"
+      }
+    ]
+  },
+  {
+    "pid": 5,
+    "slug": "mechanical-engineering",
+    "name": "Mechanical Engineering",
+    "degree": "B.Tech & M.Tech (CAD/CAM)",
+    "intake": "60 B.Tech + 18 M.Tech",
+    "dte_code": "417461210",
+    "nba_status": "NBA Tier-I Accredited",
+    "vision": "To develop competent Mechanical Engineers through an industry oriented program to serve the society",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Sushant S. Satputaley",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/sushant_1633586048.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Sushant S. Satputaley",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sushant_1633586048.jpg"
+      },
+      {
+        "name": "Dr. Pramod B. Lanjewar",
+        "designation": "Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pramod_1739332784.jpg"
+      },
+      {
+        "name": "Dr. Minhaj A. Rehman",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/minhaj _1739332874.jpg"
+      },
+      {
+        "name": "Dr. Kishor R. Borakhade",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kishore_1761543474.jpg"
+      },
+      {
+        "name": "Dr. Pravin S. Nerkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pravin_1739332794.jpg"
+      },
+      {
+        "name": "Mr. Shripad V. Deo",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shripad  _1739332804.jpg"
+      },
+      {
+        "name": "Mr. Ramanuj N. Chakraborty",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ramanuj_1739332832.jpg"
+      },
+      {
+        "name": "Mr. Pramod R. Bhagat",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pramod _1739332840.jpg"
+      },
+      {
+        "name": "Dr. Vimal C. Sontake",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vimal _1739332897.jpg"
+      },
+      {
+        "name": "Dr. Manish K. Bhadke",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/manish_1739332887.jpg"
+      },
+      {
+        "name": "Dr. Ghanshyam R. Boob",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ghanshyam _1633586089.jpg"
+      },
+      {
+        "name": "Dr. Brijendra Singh K. Bhaskar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/brijendra singh_1739332879.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/ME_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/ME_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/ME_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/ME_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/ME_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/ME_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/ME_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/ME_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1: Pursue successful careers in Mechanical engineering through their strong foundation in mathematics, science and engineering.",
+      "PEO2: Analyse and design appropriate solutions for socially relevant problems by using current engineering techniques.",
+      "PEO3: Exhibit professionalism, ethical attitude, managerial & communication skills, team work and social responsibility in their profession.",
+      "PEO4: Identify opportunities to expand their horizon beyond Mechanical engineering and adapt to current trends by engaging in continuous learning."
+    ],
+    "psos": [
+      "PSO1 : Design and Analysis of complex mechanical systems and components using modern design and analysis tools.",
+      "PSO2 : Propose latest manufacturing practices and design efficient production processes using advanced machines and automation tools."
+    ],
+    "tagline": "Mastering Advanced Manufacturing, CAD/CAM & Robotics",
+    "overview": "Established to cultivate innovative mechanical technocrats, the Department of Mechanical Engineering blends deep theoretical mechanics with modern CNC manufacturing, mechatronics, and thermal sciences. Accredited by NBA Tier-I, the department houses an authorized Dassault Syst\u00e8mes 3D CAD modeling suite and a dedicated Formula student racing team.",
+    "placement_rate": "90% Placement & Core Recruitment",
+    "top_recruiters": [
+      "Tata Motors",
+      "Mahindra & Mahindra",
+      "Bosch",
+      "Godrej & Boyce",
+      "Thermax",
+      "L&T",
+      "Kirloskar Brothers"
+    ],
+    "labs": [
+      {
+        "name": "Advanced CAD/CAM & 3D Modeling Center",
+        "focus": "CATIA V5, SolidWorks, ANSYS Mechanical, Mastercam, CreO Parametric"
+      },
+      {
+        "name": "CNC Machining & Additive Prototyping Workshop",
+        "focus": "CNC Lathe, CNC Vertical Milling Center, industrial dual-extruder 3D printers"
+      },
+      {
+        "name": "Internal Combustion Engines & Automotive Lab",
+        "focus": "Computerized multi-cylinder petrol and CRDI diesel test rigs with gas analyzers"
+      },
+      {
+        "name": "Fluid Mechanics & Turbo-Machinery Lab",
+        "focus": "Pelton wheel, Francis turbine, Kaplan turbine, wind tunnel aerodynamics"
+      },
+      {
+        "name": "Heat Transfer & Refrigeration Testing Lab",
+        "focus": "Thermal conductivity test rigs, heat exchangers, vapor compression chillers"
+      },
+      {
+        "name": "Mechatronics & Industrial Robotics Lab",
+        "focus": "Electro-pneumatic automation kits, pick-and-place articulated robot, hydraulic trainers"
+      }
+    ]
+  },
+  {
+    "pid": 6,
+    "slug": "information-technology",
+    "name": "Information Technology",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417424610",
+    "nba_status": "NBA Tier-I Accredited",
+    "vision": "To be a center of excellence in the domain of Information Technology to nurture future professionals.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Mrs. Shabana S. Pathan",
+      "designation": "Head of the Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/shabana _1739333385.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Mrs. Shabana S. Pathan",
+        "designation": "Head of the Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shabana _1739333385.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Priti C. Golar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/priti_1739333390.jpg"
+      },
+      {
+        "name": "Dr. Vishal M. Tiwari",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vishal_1739333442.jpg"
+      },
+      {
+        "name": "Dr. Fr. Stanly Wilson",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/stanly_1773832014.jpeg"
+      },
+      {
+        "name": "Mr. Shankar G. Gadhve",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shankar_1739333748.jpg"
+      },
+      {
+        "name": "Dr. Shubhangi Y. Chaware",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shubhangi_1739333816.jpg"
+      },
+      {
+        "name": "Mr. Nilesh H. Dhannaseth",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/nilesh_1739333827.jpg"
+      },
+      {
+        "name": "Mr. Jayant S. Rohankar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/jayant_1739334166.jpg"
+      },
+      {
+        "name": "Dr. Aparitosh Gahankari",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/aparitosh_1740040128.jpg"
+      },
+      {
+        "name": "Mrs. Pragati V. Budhe",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pragati_1783158454.JPG"
+      },
+      {
+        "name": "Ms. Vrushali Moon",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vrushali _1791529616.jpeg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/IT_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/IT_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/IT_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/IT_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/IT_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/IT_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/IT_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/IT_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 : Graduates of Information Technology shall have theoretical and practical knowledge in mathematics, science and engineering fundamentals and ability to use it in their chosen career.",
+      "PEO2 : Graduates of Information Technology shall have technical proficiency to investigate, analyze, design and implement IT solutions for complex real life problems.",
+      "PEO3 : Graduates of Information Technology shall have exposure to emerging technologies and opportunities to work in teams with guidance on communication skills and leadership qualities.",
+      "PEO4 : Graduates of Information Technology shall have professional competency, by promoting life-long learning, code of ethics and practices with cultural, social and environmental consideration."
+    ],
+    "psos": [
+      "PSO1 : An ability to use and apply current technical concepts and practices in the core Information Technologies.",
+      "PSO2 : An ability to effectively integrate IT-based solutions into the user environment"
+    ],
+    "tagline": "Architecting Enterprise Computing & Secure Cloud Infrastructure",
+    "overview": "The Department of Information Technology delivers world-class education in enterprise systems, cloud platforms, full-stack technologies, and network engineering. With Tier-I NBA accreditation, strong industry MOUs, and continuous corporate internships, graduates thrive as lead engineers in global software conglomerates.",
+    "placement_rate": "91% Campus Conversion",
+    "top_recruiters": [
+      "Persistent",
+      "TCS",
+      "Accenture",
+      "Cognizant",
+      "Capgemini",
+      "Wipro",
+      "Hexaware"
+    ],
+    "labs": [
+      {
+        "name": "Enterprise Web & Cloud Solutions Lab",
+        "focus": "Microservices, Spring Cloud, Node.js, Angular, React, Kubernetes clusters"
+      },
+      {
+        "name": "Database Systems & Information Retrieval Lab",
+        "focus": "Oracle, PostgreSQL, MongoDB, Elasticsearch, indexing optimization"
+      },
+      {
+        "name": "Network Security & Cryptography Lab",
+        "focus": "Snort IDS/IPS, OpenSSL, VPN configuration, security vulnerability assessment"
+      },
+      {
+        "name": "Mobile Application & Cross-Platform Lab",
+        "focus": "Flutter, Android Studio, iOS Swift, React Native, Firebase backend integration"
+      },
+      {
+        "name": "Software Engineering & Automated Testing Lab",
+        "focus": "Selenium WebDriver, JUnit, Jenkins CI/CD, SonarQube code quality"
+      },
+      {
+        "name": "Open Source Innovation & Project Studio",
+        "focus": "Linux kernel, Git/GitHub, Docker containerization, open-source collaborative code"
+      }
+    ]
+  },
+  {
+    "pid": 9,
+    "slug": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417426310",
+    "nba_status": "AICTE Approved (Autonomous)",
+    "vision": "To become a centre of excellence in the field of Artificial Intelligence, enabling students with a high level of technical and practical capabilities to address the needs of industry and society.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Vikas G. Bhowate",
+      "designation": "Assistant Professor",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/vikas_1739333400.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Vikas G. Bhowate",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vikas_1739333400.jpg"
+      },
+      {
+        "name": "Mrs. Pooja B. Wagh",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pooja_1739333427.jpg"
+      },
+      {
+        "name": "Mr. Sachin S. Patil",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sachin_1740040476.jpg"
+      },
+      {
+        "name": "Mrs. Snehal Awachat",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/snehal_1740039522.jpg"
+      },
+      {
+        "name": "Mrs. Priya N. Khobragade",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/priya_1740041330.jpg"
+      },
+      {
+        "name": "Mrs. Pinky Gangwani",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pinky_1740041760.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Pranjali A. Deshmukh",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pranjali_1756374311.JPG"
+      },
+      {
+        "name": "Mr. Rihal R. Kalbende",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/rihal_1751435571.JPG"
+      },
+      {
+        "name": "Mrs. Madhuri A. Sahu",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/madhuri_1783158845.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/AI_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/AI_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/AI_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/AI_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/AI_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/AI_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/AI_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/AI_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 Graduates will be able to create and solve difficult intelligent computing and multidisciplinary challenges using their analytical, decision-making, and prediction skills learned in AI.",
+      "PEO2 Graduates with an in-depth understanding of Artificial Intelligence will be able to pursue higher education, research, and development opportunities.",
+      "PEO3 Graduates will be able to demonstrate their employability skills and also practising professional ethics with a feeling of social responsibility."
+    ],
+    "psos": [
+      "PSO1 Apply a set of Artificial Intelligence principles, tools, and techniques to model, evaluate, and recommend a suitable solution to a variety of real-world business challenges by communicating important discoveries and successfully presenting results using appropriate data visualisation approaches.",
+      "PSO2 Apply Artificial Intelligence and Machine Learning skills in fields such as health care, education, agriculture, e-commerce, finance, smart systems, and multi-disciplinary AI."
+    ],
+    "tagline": "Pioneering Machine Intelligence, Computer Vision & LLMs",
+    "overview": "The Department of Artificial Intelligence is SVPCET's specialized high-tech wing dedicated to artificial cognitive systems, deep learning algorithms, natural language understanding, and autonomous perception. Students train on high-capacity GPU clusters to build production-grade AI models for industry automation.",
+    "placement_rate": "93% High-Package Placements",
+    "top_recruiters": [
+      "NVIDIA Ecosystem",
+      "Persistent AI",
+      "TCS Digital",
+      "Amazon AWS",
+      "Cognizant AI",
+      "Accenture",
+      "Infosys"
+    ],
+    "labs": [
+      {
+        "name": "Deep Learning & High-Performance GPU Cluster",
+        "focus": "NVIDIA RTX 4090/A5000 GPUs, PyTorch, CUDA, Distributed Training"
+      },
+      {
+        "name": "Computer Vision & Visual Perception Lab",
+        "focus": "OpenCV, YOLOv8, facial recognition, autonomous vehicle perception sensors"
+      },
+      {
+        "name": "Natural Language Processing & Generative AI Lab",
+        "focus": "HuggingFace Transformers, LLM fine-tuning, LangChain, vector databases"
+      },
+      {
+        "name": "Reinforcement Learning & Cognitive Systems Lab",
+        "focus": "OpenAI Gym, deep Q-networks, multi-agent reinforcement environments"
+      },
+      {
+        "name": "Edge AI & Embedded Intelligence Lab",
+        "focus": "NVIDIA Jetson Nano/Orin, Google Coral TPU, Raspberry Pi 5 AI cameras"
+      },
+      {
+        "name": "AI Capstone & Model Deployment Sandbox",
+        "focus": "FastAPI, Docker, ONNX Runtime, TensorRT, Triton Inference Server"
+      }
+    ]
+  },
+  {
+    "pid": 10,
+    "slug": "data-science",
+    "name": "CSE (Data Science)",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417426010",
+    "nba_status": "AICTE Approved (Autonomous)",
+    "vision": "To develop data Science engineers to administer the data centric world for strengthening the modern society with analytical practices and research.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Manish B. Gudadhe",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/manish_1739331673.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Manish B. Gudadhe",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/manish_1739331673.jpg"
+      },
+      {
+        "name": "Mr. Abhinav Muley",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/abhinav_1739335647.jpg"
+      },
+      {
+        "name": "Dr. Jayshri Harde",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/jayshri_1739335665.jpg"
+      },
+      {
+        "name": "Dr. Aashish R. Dandekar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ aashish_1739335675.jpg"
+      },
+      {
+        "name": "Mrs. Leena Mandurkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/leena_1739335697.jpg"
+      },
+      {
+        "name": "Ms. Bhagyashree C. Hambarde",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/bhagyashree_1739335851.jpg"
+      },
+      {
+        "name": "Dr. Tejal D. Irkhede",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/tejal_1739335868.jpg"
+      },
+      {
+        "name": "Mrs. Kalyani N. Satone",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kalyani_1739335880.jpg"
+      },
+      {
+        "name": "Dr. Nischal Puri",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/nischal_1752228003.JPG"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/CSE_DS_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/CSE_DS_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/CSE_DS_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/CSE_DS_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/CSE_DS_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/CSE_DS_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/CSE_DS_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/CSE_DS_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [
+      "PEO1 To develop the graduates as professionals by providing exposure to real-life problems using analytical and experiential skills acquired in the field of Data Science.",
+      "PEO2 To prepare the graduates with a varied range of expertise in different aspects of data science such as data collection, visualization, processing and modeling of large data sets.",
+      "PEO3 To foster the graduates to cater the growing demand of data scientists and engineers in multidisciplinary industrial, entrepreneurial and research environment."
+    ],
+    "psos": [
+      "PSO1 Gain in-depth knowledge of the key technologies in data science such as Data Handling, Big data, data mining, machine learning, data modelling, and statistics.",
+      "PSO2 Model and provide solutions to the real life problems and decision making in the field of data science with expertise in programming, databases, IoT , Business Intelligence and mathematics."
+    ],
+    "tagline": "Unlocking Predictive Insights with Big Data & Statistical Learning",
+    "overview": "The Department of Computer Science & Engineering (Data Science) equips students to navigate petabyte-scale data lakes, statistical inferences, predictive machine learning, and executive visualization. The curriculum blends rigorous mathematical foundations with practical industry analytics platforms.",
+    "placement_rate": "92% Campus Conversion",
+    "top_recruiters": [
+      "Mu Sigma",
+      "LatentView",
+      "Persistent Analytics",
+      "TCS",
+      "Accenture Data Practice",
+      "Capgemini",
+      "Infosys"
+    ],
+    "labs": [
+      {
+        "name": "Big Data Engineering & Apache Spark Lab",
+        "focus": "Apache Hadoop, PySpark, Databricks Community, Kafka streaming streams"
+      },
+      {
+        "name": "Statistical Machine Learning & Modeling Lab",
+        "focus": "R Programming, Scikit-learn, Statsmodels, Bayesian inference setups"
+      },
+      {
+        "name": "Business Intelligence & Data Visualization Studio",
+        "focus": "Tableau Desktop, Power BI, D3.js interactive charting, Qlik Sense"
+      },
+      {
+        "name": "Cloud Data Warehousing & ETL Pipelines Lab",
+        "focus": "Snowflake, Google BigQuery, PostgreSQL, dbt, Apache Airflow workflows"
+      },
+      {
+        "name": "Time Series & Financial Analytics Lab",
+        "focus": "ARIMA, Prophet, financial algorithmic backtesting, econometrics"
+      },
+      {
+        "name": "Data Mining & Predictive Analytics Studio",
+        "focus": "KNIME, RapidMiner, association rule mining, automated ML pipelines"
+      }
+    ]
+  },
+  {
+    "pid": 12,
+    "slug": "cyber-security",
+    "name": "CSE (Cyber Security)",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417424410",
+    "nba_status": "AICTE Approved (Autonomous)",
+    "vision": "To develop competent computing community in the field of Cyber Security in order to prepare graduates with strong academic and technical acumen needed to achieve excellence in the discipline.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Abhishek D. Pathak",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/abhishek_1739331729.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Abhishek D. Pathak",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/abhishek_1739331729.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Swati H. Mirlekar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/swati_1633585124.jpg"
+      },
+      {
+        "name": "Mrs. Bhakti Thakre",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/bhakti_1739335903.jpg"
+      },
+      {
+        "name": "Mr. Sachin J. Janbandhu",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sachin_1739335947.jpg"
+      },
+      {
+        "name": "Mr. Mrunal R. Arjunkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/mrunal_1747385302.jpg"
+      },
+      {
+        "name": "Mr. Vikas G. Singh",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vikas_1751435978.JPG"
+      },
+      {
+        "name": "Dr. Heena F. Ansari",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/heena_1785561619.jpeg"
+      },
+      {
+        "name": "Ms. Priya Parkhi",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/priya_1783482073.JPG"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/CSE_CS_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/CSE_CS_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/CSE_CS_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/CSE_CS_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/CSE_CS_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/CSE_CS_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/CSE_CS_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/CSE_CS_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [],
+    "psos": [],
+    "tagline": "Defending Digital Frontiers with Ethical Hacking & Forensics",
+    "overview": "With digital infrastructure facing sophisticated cyber threats globally, the Department of CSE (Cyber Security) provides mission-critical training in penetration testing, threat hunting, secure software engineering, cryptography, and digital forensics. Students learn in an isolated, sandboxed cyber range.",
+    "placement_rate": "91% Placement Rate",
+    "top_recruiters": [
+      "PwC Cyber",
+      "Deloitte Risk & Advisory",
+      "EY Security Practice",
+      "TCS Cyber Defense",
+      "Quick Heal",
+      "Paladion",
+      "Infosys"
+    ],
+    "labs": [
+      {
+        "name": "Isolated Cyber Defense Range & Simulation Sandbox",
+        "focus": "Virtual cyber attack/defense wargames, SOC simulation, SIEM tools (Splunk)"
+      },
+      {
+        "name": "Ethical Hacking & Penetration Testing Lab",
+        "focus": "Burp Suite Pro, Metasploit, Nmap, OWASP Top 10 vulnerabilities"
+      },
+      {
+        "name": "Digital Forensics & Malware Reverse Engineering Lab",
+        "focus": "Autopsy, FTK Imager, Ghidra, IDA Pro, volatility memory analysis"
+      },
+      {
+        "name": "Applied Cryptography & Blockchain Architecture Lab",
+        "focus": "RSA/ECC cryptography, Solidity smart contracts, Hyperledger Fabric"
+      },
+      {
+        "name": "Network Security & Firewall Testing Lab",
+        "focus": "Cisco ASA, pfSense, Snort IDS/IPS, Wireshark packet inspection"
+      },
+      {
+        "name": "Secure Software Engineering & DevSecOps Studio",
+        "focus": "SonarQube, Snyk, GitGuardian, CI/CD automated vulnerability scanning"
+      }
+    ]
+  },
+  {
+    "pid": 14,
+    "slug": "computer-science-and-business-systems",
+    "name": "Computer Science & Business Systems (TCS)",
+    "degree": "B.Tech (In Collaboration with TCS)",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417426210",
+    "nba_status": "TCS Industry Curriculum",
+    "vision": "To impart competent industry relevant education, skillful research and innovative computer science professionals together with managerial skills, human and social values.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Praveen H. Sen",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/praveen_1739333434.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Praveen H. Sen",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/praveen_1739333434.jpg"
+      },
+      {
+        "name": "Ms. Renuka M. Raut",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/renuka_1739335601.jpg"
+      },
+      {
+        "name": "Dr. Rushikesh M. Shete",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/rushikesh_1739335625.jpg"
+      },
+      {
+        "name": "Mr. Sanjay S. Kalamdhad",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sanjay_1739335637.jpg"
+      },
+      {
+        "name": "Mrs. Pradnya S. Moon",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pradnya_1785905108.jpeg"
+      },
+      {
+        "name": "Ms. Pranoti D. Mane",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/pranoti_1785905167.jpeg"
+      },
+      {
+        "name": "Mr. Sanket Joshi",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sanket_1785904276.JPG"
+      },
+      {
+        "name": "Mr. Chetan Raut",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/chetan_1785905836.jpeg"
+      },
+      {
+        "name": "Dr. Sachin U. Balvir",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sachin_1785904366.jpeg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/CSBS_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/CSBS_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/CSBS_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/CSBS_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2025/CSBS_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/CSBS_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2024/CSBS_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/CSBS_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [],
+    "psos": [],
+    "tagline": "Merging Deep Computer Science with Global Business Leadership",
+    "overview": "Curated in direct collaboration with Tata Consultancy Services (TCS), this unique B.Tech program integrates core computer science with enterprise financial acumen, design thinking, business analytics, and executive communication. Graduates emerge with a profound dual advantage for global technology consulting.",
+    "placement_rate": "95% TCS & Premier Industry Conversion",
+    "top_recruiters": [
+      "Tata Consultancy Services (TCS)",
+      "Cognizant",
+      "Persistent",
+      "Accenture",
+      "LTI Mindtree",
+      "Deloitte",
+      "KPMG"
+    ],
+    "labs": [
+      {
+        "name": "TCS Enterprise Software Systems Lab",
+        "focus": "Enterprise Java, Microservices, Spring Boot, DevOps, Cloud deployment"
+      },
+      {
+        "name": "Business Analytics & Financial Computing Lab",
+        "focus": "Financial modeling, algorithmic trading simulations, Python for Finance, PowerBI"
+      },
+      {
+        "name": "Design Thinking & Innovation Studio",
+        "focus": "Miro, Figma, human-centric UX design, agile sprint simulations"
+      },
+      {
+        "name": "Cloud Enterprise Architecture Studio",
+        "focus": "AWS/Azure Solution Architect configurations, enterprise ERP integrations"
+      },
+      {
+        "name": "Data Analytics & Strategic Decision Lab",
+        "focus": "Predictive modeling for business KPIs, supply chain optimization, SQL"
+      },
+      {
+        "name": "Executive Communication & Soft Skills Studio",
+        "focus": "Video capture for client presentations, mock boardrooms, corporate negotiation"
+      }
+    ]
+  },
+  {
+    "pid": 15,
+    "slug": "robotics-and-artificial-intelligence",
+    "name": "Robotics & Artificial Intelligence",
+    "degree": "B.Tech",
+    "intake": "60 B.Tech Seats",
+    "dte_code": "417491110",
+    "nba_status": "AICTE Approved (Autonomous)",
+    "vision": "To be a recognized center of excellence in Robotics & Artificial Intelligence education, fostering technical innovation and societal leadership.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Amit R. Bhende",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/amit_1759476074.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Amit R. Bhende",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/amit_1759476074.jpg"
+      },
+      {
+        "name": "Mr. Anthony Augustine",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/anthony_1739332998.jpg"
+      },
+      {
+        "name": "Mr. Aditya D. Khandare",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/aditya_1633586372.jpg"
+      },
+      {
+        "name": "Dr. Abhranil Banerjee",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/abhranil_1739333185.jpg"
+      },
+      {
+        "name": "Mr. Atul K. Saxena",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/atul _1633586397.jpg"
+      },
+      {
+        "name": "Mrs. Namrata A. Nagpurkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/namrata_1739333193.jpg"
+      },
+      {
+        "name": "Mr. Ashutosh Maske",
+        "designation": "Teaching Assistant",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ashutosh_1778071270.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/RAI_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/RAI_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2026/RAI_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/RAI_III_Semester_Syllabus_2025-2026.pdf"
+      }
+    ],
+    "peos": [],
+    "psos": [],
+    "tagline": "Empowering Autonomous Machines, Drones & Smart Robotics",
+    "overview": "The Department of Robotics & Artificial Intelligence merges mechanical kinematics, sensor electronics, computer vision, and ROS-based autonomous navigation. Equipped with physical drone arenas, 6-axis robotic arms, and e-Yantra IIT Bombay setups, students engineer real-world robots for manufacturing, defense, and healthcare.",
+    "placement_rate": "90% Placement & Robotics R&D",
+    "top_recruiters": [
+      "Tata Motors Robotics",
+      "FANUC India",
+      "ABB Robotics",
+      "KUKA",
+      "Tech Mahindra",
+      "DRDO Research Units",
+      "TCS"
+    ],
+    "labs": [
+      {
+        "name": "Autonomous Mobile Robots & ROS Lab",
+        "focus": "Robot Operating System (ROS 2), LiDAR, SLAM algorithms, TurtleBot platforms"
+      },
+      {
+        "name": "Texcelrators Drone Aeronautics & Aerial Arena",
+        "focus": "Quadcopter flight controllers, PX4, Mission Planner, aerial video analytics"
+      },
+      {
+        "name": "Industrial Manipulators & Kinematics Lab",
+        "focus": "6-Axis articulated industrial robotic arm, SCARA robots, servo kinematics"
+      },
+      {
+        "name": "e-Yantra Embedded Robotics Lab (IIT Bombay)",
+        "focus": "Firebird V robot platforms, AVR/ARM microcontrollers, sensor fusion"
+      },
+      {
+        "name": "Robotics Simulation & Digital Twin Studio",
+        "focus": "Gazebo simulator, Webots, CoppeliaSim, MATLAB Simscape Multibody"
+      },
+      {
+        "name": "Additive Prototyping & Mechatronics Lab",
+        "focus": "Fused Deposition 3D printers, laser cutting, electronic prototyping benches"
+      }
+    ]
+  },
+  {
+    "pid": 13,
+    "slug": "industrial-IOT",
+    "name": "Industrial Internet of Things (IIoT)",
+    "degree": "B.Tech",
+    "intake": "30 B.Tech Seats",
+    "dte_code": "417424910",
+    "nba_status": "AICTE Approved (Autonomous)",
+    "vision": "To develop ethically strong martinets having their heart in engineering, science and have deep proficiency and multidisciplinary knowledge in the domain of Industrial Internet of Things.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Shriraghavan R. Madbushi",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/shriraghavan_1739332347.jpg"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Shriraghavan R. Madbushi",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shriraghavan_1739332347.jpg"
+      },
+      {
+        "name": "Dr. Mohammad A. Hayat",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/mohammad_1739332989.jpg"
+      },
+      {
+        "name": "Mr. Tushar A. Aneyrao",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/tushar_1739333280.jpg"
+      },
+      {
+        "name": "Mr. Rohan Vaidya",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/rohan_1739332417.jpg"
+      },
+      {
+        "name": "Dr. Shiju Samuel",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/shiju_1739332441.jpg"
+      },
+      {
+        "name": "Dr. Amol W. Pardhi",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/amol_1739332431.jpg"
+      },
+      {
+        "name": "Mr. Kunal Onkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kunal_1739332663.jpg"
+      },
+      {
+        "name": "Mr. Rajeshwari G. Shinde",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/rajeshwari_1739335890.jpg"
+      },
+      {
+        "name": "Mrs. Snehal A. Shingode",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/snehal shingode_1751434910.JPG"
+      },
+      {
+        "name": "Dr. Vaijayanti H. Panse",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vaijayanti_1783158673.JPG"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "2026-30 (Students Admitted in 2026-27)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/IIoT_Scheme_2026-2027.pdf"
+      },
+      {
+        "title": "I Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2027/IIoT_I_Semester_Syllabus_2026-2027.pdf"
+      },
+      {
+        "title": "2025-29 (Students Admitted in 2025-26)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/IIoT_Scheme_2025-2026.pdf"
+      },
+      {
+        "title": "III Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2026/IIoT_III_Semester_Syllabus_2025-2026.pdf"
+      },
+      {
+        "title": "2024-28 (Students Admitted in 2024-25)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/IIoT_Scheme_2024-2025.pdf"
+      },
+      {
+        "title": "V Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2025/IIoT_V_Semester_Syllabus_2024-2025.pdf"
+      },
+      {
+        "title": "2023-27 (Students Admitted in 2023-24)",
+        "url": "https://stvincentngp.edu.in/documents/autonomy_scheme/2027/IIoT_Scheme_2023-2024.pdf"
+      },
+      {
+        "title": "VII Sem",
+        "url": "https://stvincentngp.edu.in/documents/syllabus/2024/IIoT_VII_Semester_Syllabus_2023-2024.pdf"
+      }
+    ],
+    "peos": [],
+    "psos": [],
+    "tagline": "Powering Industry 4.0, Smart Factories & Edge Telemetry",
+    "overview": "The Department of Industrial Internet of Things (IIoT) trains engineers to digitize manufacturing ecosystems through cyber-physical sensors, SCADA automation, Edge AI, and industrial cloud platforms. Students master real-time telemetry, predictive maintenance, and smart factory operations.",
+    "placement_rate": "88% Campus Conversion",
+    "top_recruiters": [
+      "Siemens Industry",
+      "Honeywell",
+      "Schneider Electric",
+      "Rockwell Automation",
+      "TCS IoT Practice",
+      "L&T",
+      "Bosch"
+    ],
+    "labs": [
+      {
+        "name": "Industry 4.0 & Smart Factory Testbed",
+        "focus": "Miniature automated conveyor lines, pick-and-place actuators, optical sensors"
+      },
+      {
+        "name": "Industrial SCADA & PLC Automation Lab",
+        "focus": "Siemens S7-1500, Allen Bradley PLCs, Wonderware InTouch SCADA software"
+      },
+      {
+        "name": "Edge Computing & Industrial Telemetry Lab",
+        "focus": "Raspberry Pi Industrial CM4, ESP32 Industrial, Modbus, MQTT, OPC-UA protocols"
+      },
+      {
+        "name": "Wireless Sensor Networks & LoRaWAN Lab",
+        "focus": "LoRa gateways, Zigbee mesh nodes, long-range telemetry transmitters"
+      },
+      {
+        "name": "Smart Instrumentation & Transducers Lab",
+        "focus": "LVDT, strain gauges, RTDs, thermocouples, piezoelectric accelerometers"
+      },
+      {
+        "name": "IoT Cloud Platform & Analytics Studio",
+        "focus": "AWS IoT Core, Azure IoT Hub, ThingSpeak, Node-RED dashboarding"
+      }
+    ]
+  },
+  {
+    "pid": 8,
+    "slug": "first-year",
+    "name": "Applied Sciences & Humanities (First Year)",
+    "degree": "B.Tech Foundation",
+    "intake": "All First-Year Engineering Batches",
+    "dte_code": "4174 (Common)",
+    "nba_status": "Autonomous Foundation Wing",
+    "vision": "To develop a knowledge based society with clarity of thoughts and charity at hearts to serve humanity with integrity.",
+    "mission": [
+      "B.Tech Engineering, Sciences and Humanities Civil Engineering Computer Science and Engineering Electronics & Telecommunication Electrical Engineering Information Technology Mechanical Engineering Artificial Intelligence Computer Science & Engineering (Data Science) Computer Science & Engineering (Cyber Security) Industrial IOT Computer Science and Business Systems(TCS) Robotics and Artificial Intelligence M.Tech M.Tech. Computer Science Engineering (Big Data Analytics) M.Tech. Automotive Technology M.Tech. Power Electronics and Power Systems M.Tech. Embedded System and VLSI Design M.Tech. Structural Engineering M.Tech. Computer Science and Engineering (AI & ML) Computer Application Courses Bachelor of Computer Application (BCA) Master of Computer Application (MCA) Management Courses Bachelor of Business Administration (BBA) Master of Business Administration (MBA) Department of Vocation (B. VOC) Ph. D. Research Center Academic Calendar Academic Cell Academic Regulations Syllabus"
+    ],
+    "hod": {
+      "name": "Dr. Smita C. Tolani",
+      "designation": "Associate Professor, Head of Department",
+      "qual": "M.Tech, Ph.D.",
+      "img": "https://stvincentngp.edu.in//img/faculty/smita _1777262684.JPG"
+    },
+    "faculty": [
+      {
+        "name": "Dr. Smita C. Tolani",
+        "designation": "Associate Professor, Head of Department",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/smita _1777262684.JPG"
+      },
+      {
+        "name": "Dr. Mrs. Sucheta S. Moharir",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sucheta _1739333486.jpg"
+      },
+      {
+        "name": "Dr. Vijay M. Deshmukh",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/vijay_1739333493.jpg"
+      },
+      {
+        "name": "Dr. Manish M. Jachak",
+        "designation": "Associate Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/manish _1784287145.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Kirti Sahu",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/kirti_1739333505.jpg"
+      },
+      {
+        "name": "Dr. Ashish K. Bodhaye",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/ashish_1739333552.jpg"
+      },
+      {
+        "name": "Mrs. Namrata Gore",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/namrata_1739333527.jpg"
+      },
+      {
+        "name": "Mrs. Sayali K. Kanhav",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/sayali_1739333562.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Jyoti N. Thakre",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/jyoti _1739333544.jpg"
+      },
+      {
+        "name": "Dr. Mrs. Suchita D. Nimbalkar",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/suchita_1739333575.jpg"
+      },
+      {
+        "name": "Mrs. Prachi Y. Pande",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/prachi_1739333581.jpg"
+      },
+      {
+        "name": "Dr. Indrajeet G. Varhadpande",
+        "designation": "Assistant Professor",
+        "qual": "M.Tech, Ph.D.",
+        "img": "https://stvincentngp.edu.in//img/faculty/indrajeet _1739333618.jpg"
+      }
+    ],
+    "syllabus_links": [
+      {
+        "title": "Open with new tab",
+        "url": "https://www.stvincentngp.edu.in/documents/autonomy_scheme/2026/ESH_Scheme_2025-2026.pdf\n\n"
+      }
+    ],
+    "peos": [],
+    "psos": [],
+    "tagline": "Nurturing Foundational Scientific Rigor & Engineering Excellence",
+    "overview": "The Department of Applied Sciences and Humanities forms the academic bedrock for all incoming engineering undergraduates. Comprising Physics, Chemistry, Mathematics, Professional Communication, and Social Sciences, the department builds rigorous foundational thinking, multidisciplinary hands-on skills, and ethical values.",
+    "placement_rate": "100% Transition to Upper Division",
+    "top_recruiters": [
+      "Academic Excellence Awards",
+      "Hackathon Winners",
+      "TCS CodeVita Finalists",
+      "IIT Techfest Qualifiers"
+    ],
+    "labs": [
+      {
+        "name": "Engineering Physics & Optics Lab",
+        "focus": "He-Ne lasers, spectrometer grating, Newton's rings, Hall effect measurement"
+      },
+      {
+        "name": "Engineering Chemistry & Materials Lab",
+        "focus": "Water hardness titrations, spectrophotometers, flash point, Cleveland viscometer"
+      },
+      {
+        "name": "Advanced Language & Communication Skills Lab",
+        "focus": "Orell Digital Language Lab software, audio-visual pronunciation, GD booths"
+      },
+      {
+        "name": "Basic Electrical & Electronics Engineering Lab",
+        "focus": "RLC circuits, transformers, regulated power supplies, oscilloscopes"
+      },
+      {
+        "name": "Engineering Graphics & Computer-Aided Drawing",
+        "focus": "AutoCAD Drafting stations, orthographic/isometric projections, solid modeling"
+      },
+      {
+        "name": "Tinkering & Innovation Maker Space",
+        "focus": "Basic mechanical tools, soldering stations, Arduino starter kits, 3D printing"
+      }
+    ]
+  }
+]

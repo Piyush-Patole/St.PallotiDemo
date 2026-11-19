@@ -224,24 +224,26 @@ function initSearchModal() {
   });
 
   const searchablePages = [
-    { title: 'Computer Science & Engineering (B.Tech & M.Tech)', category: 'Academic Department', url: 'department-template.html' },
-    { title: 'Artificial Intelligence & Machine Learning', category: 'Academic Department', url: '#departments' },
-    { title: 'Data Science (B.Tech CSE Track)', category: 'Academic Department', url: '#departments' },
-    { title: 'Cyber Security (B.Tech Defense Track)', category: 'Academic Department', url: '#departments' },
-    { title: 'Robotics & Artificial Intelligence', category: 'Academic Department', url: '#departments' },
-    { title: 'Computer Science & Business Systems (TCS Curated)', category: 'Academic Department', url: '#departments' },
-    { title: 'Electrical Engineering (NBA Accredited)', category: 'Academic Department', url: '#departments' },
-    { title: 'Electronics & Telecommunication (5G/VLSI)', category: 'Academic Department', url: '#departments' },
-    { title: 'Mechanical Engineering (CAD/CAM & EV)', category: 'Academic Department', url: '#departments' },
-    { title: 'Civil Engineering (Smart Infrastructure)', category: 'Academic Department', url: '#departments' },
-    { title: 'B.Tech Admissions 2026-27 & CAP Eligibility', category: 'Admissions', url: '#admissions' },
-    { title: 'Interactive Fee Structure & Concessions Calculator', category: 'Admissions & Fees', url: '#fee-calculator' },
-    { title: 'Corporate Recruitment & CDC Placement Records', category: 'Corporate Hub', url: '#corporate' },
-    { title: 'Autonomous Exam Cell & Winter 2026 Timetables', category: 'Academics & Exams', url: '#notices' },
-    { title: 'Texcelrators Drone Innovation Lab', category: 'Research & Labs', url: '#research' },
-    { title: 'Residential Hostels & Sports Complex', category: 'Campus Life', url: '#campus-life' },
-    { title: 'NAAC A Grade & NBA Accreditations Portfolio', category: 'Governance & NIRF', url: '#about' },
-    { title: '24x7 Campus Security Guards & Emergency Gate Numbers', category: 'Safety & Contacts', url: '#contact' }
+    { title: 'Computer Science & Engineering (B.Tech & M.Tech)', category: 'Academic Department', url: 'departments/computer-science-and-engineering.html' },
+    { title: 'Artificial Intelligence & Machine Learning', category: 'Academic Department', url: 'departments/artificial-intelligence.html' },
+    { title: 'Data Science (B.Tech CSE Track)', category: 'Academic Department', url: 'departments/data-science.html' },
+    { title: 'Cyber Security (B.Tech Defense Track)', category: 'Academic Department', url: 'departments/cyber-security.html' },
+    { title: 'Computer Science & Business Systems (TCS Curated)', category: 'Academic Department', url: 'departments/computer-science-and-business-systems.html' },
+    { title: 'Robotics & Artificial Intelligence', category: 'Academic Department', url: 'departments/robotics-and-artificial-intelligence.html' },
+    { title: 'Electronics & Telecommunication (5G & VLSI)', category: 'Academic Department', url: 'departments/electronics-telecommunication.html' },
+    { title: 'Electrical Engineering (EV & Smart Grid)', category: 'Academic Department', url: 'departments/electrical-engineering.html' },
+    { title: 'Mechanical Engineering (CAD/CAM & Automotive)', category: 'Academic Department', url: 'departments/mechanical-engineering.html' },
+    { title: 'Civil Engineering (Smart Infrastructure & GIS)', category: 'Academic Department', url: 'departments/civil-engineering.html' },
+    { title: 'Information Technology (Cloud & Enterprise Systems)', category: 'Academic Department', url: 'departments/information-technology.html' },
+    { title: 'Industrial Internet of Things (IIoT & Industry 4.0)', category: 'Academic Department', url: 'departments/industrial-IOT.html' },
+    { title: 'Applied Sciences & Humanities (First Year)', category: 'Academic Department', url: 'departments/first-year.html' },
+    { title: 'B.Tech Admissions 2026-27 & CAP Eligibility', category: 'Admissions', url: 'index.html#admissions' },
+    { title: 'Interactive Fee Structure & Concessions Calculator', category: 'Admissions & Fees', url: 'index.html#fee-calculator' },
+    { title: 'Corporate Recruitment & CDC Placement Records', category: 'Corporate Hub', url: 'index.html#corporate' },
+    { title: 'Autonomous Exam Cell & Winter 2026 Timetables', category: 'Academics & Exams', url: 'index.html#notices' },
+    { title: 'Texcelrators Drone Innovation Lab', category: 'Research & Labs', url: 'index.html#research' },
+    { title: 'Residential Hostels & Sports Complex', category: 'Campus Life', url: 'index.html#campus-life' },
+    { title: 'NAAC A Grade & NBA Accreditations Portfolio', category: 'Governance & NIRF', url: 'index.html#about' }
   ];
 
   function renderSearchIndex(query) {
